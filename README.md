@@ -4,7 +4,9 @@ AIS (Autonomous Intelligent Systems) Lab 홈페이지 프로젝트.
 
 ## 1. 프로젝트 개요
 
-이 프로젝트는 React 기반의 연구실 홈페이지이다. 데이터와 UI 로직을 분리하여 유지보수성을 높였으며, TypeScript를 도입하여 타입 안정성을 확보했다.
+React 기반 연구실 홈페이지. 
+Google Antigravity(https://antigravity.google/) 및 Google AI Studio 를 활용하여 제작.
+데이터와 UI 로직을 분리하여 유지보수성을 높였으며, TypeScript를 도입하여 타입 안정성을 확보했다.
 
 ## 2. 기술 스택
 
@@ -16,7 +18,7 @@ AIS (Autonomous Intelligent Systems) Lab 홈페이지 프로젝트.
 
 ## 3. 폴더 구조 및 아키텍처
 
-프로젝트는 유지보수의 용이성을 위해 다음과 같이 구조화되었다.
+프로젝트는 유지보수의 용이성을 위해 다음과 같이 구조화.
 
 ```
 src/
@@ -32,10 +34,10 @@ src/
 ### 주요 변경 사항 (Refactoring)
 
 - **데이터 분리**: 모든 콘텐츠 데이터는 컴포넌트 내부에 하드코딩되지 않고 `src/data/` 폴더 내의 `.ts` 파일로 분리됨.
-- **타입 정의**: `src/types/` 폴더에 데이터 구조에 대한 인터페이스가 정의됨.
+- **타입 정의**: `src/types/` 폴더에 데이터 구조에 대한 인터페이스가 정의.
 - **페이지 구조**:
-  - `Courses`, `Projects`, `Publications` 등 주요 페이지는 상단 탭(Tab) 네비게이션 구조로 통일됨.
-  - `Publications`는 연도별 그룹화 및 카테고리 필터링(Int./Dom. Journal/Conference) 기능이 포함됨.
+  - `Courses`, `Projects`, `Publications` 등 주요 페이지는 상단 탭(Tab) 네비게이션 구조로 통일.
+  - `Publications`는 연도별 그룹화 및 카테고리 필터링(Int./Dom. Journal/Conference) 기능 포함.
 
 ## 4. 유지보수 및 데이터 수정 가이드
 
@@ -43,7 +45,7 @@ src/
 
 ### 4.1 구성원 (People) 수정
 - 파일: `src/data/people.ts`
-- `professor`, `members`, `alumni` 배열에 객체를 원칙에 맞춰 추가/수정한다. (이미지 경로는 `public/` 폴더 기준 혹은 URL)
+- `professor`, `members`, `alumni` 배열에 객체를 원칙에 맞춰 추가/수정. (이미지 경로는 `public/` 폴더 기준 혹은 URL)
 
 ### 4.2 논문 (Publications) 수정
 - 파일: `src/data/publications.ts`
