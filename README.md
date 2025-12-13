@@ -5,8 +5,10 @@ AIS (Autonomous Intelligent Systems) Lab 홈페이지 프로젝트.
 ## 1. 프로젝트 개요
 
 React 기반 연구실 홈페이지. 
-Google Antigravity(https://antigravity.google/) 및 Google AI Studio 를 활용하여 제작.
-데이터와 UI 로직을 분리하여 유지보수성을 높였으며, TypeScript를 도입하여 타입 안정성을 확보했다.
+Google Antigravity(https://antigravity.google/) 및 Google AI Studio(https://aistudio.google.com/)를 활용하여 제작.
+
+데이터와 UI 로직을 분리하여 유지보수성을 높였으며, 
+TypeScript를 도입하여 타입 안정성 확보.
 
 ## 2. 기술 스택
 
