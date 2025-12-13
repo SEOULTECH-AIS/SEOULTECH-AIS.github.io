@@ -1,6 +1,6 @@
-![Header Logo](public/assets/images/Logo1.png)
+<h1 align="center">AIS Lab Homepage</h1>
 
-# AIS Lab Homepage
+![Header Logo](public/assets/images/Logo1.png)
 
 AIS (Autonomous Intelligent Systems) Lab 홈페이지 프로젝트.
 
