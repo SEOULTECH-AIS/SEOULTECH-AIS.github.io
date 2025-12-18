@@ -45,7 +45,7 @@ const Home = () => {
                             Autonomous Intelligent <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Systems</span>
                         </h1>
                         <p className="text-slate-600 text-xl md:text-2xl max-w-3xl mx-auto font-light leading-relaxed">
-                            Bridging the gap between biological intelligence and synthetic computation through cutting-edge research.
+                            We are dedicated to achieving state-of-the-art performance in AI by unifying visual perception, language understanding, and autonomous decision-making.
                         </p>
                         <div className="pt-8 w-full flex justify-center">
                             {/* Button MUST be clickable, so we explicitly add pointer-events-auto here */}
