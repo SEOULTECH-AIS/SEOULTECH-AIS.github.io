@@ -1,7 +1,7 @@
 import { NavItem } from '../types/Navigation';
 
 export const navigationData: NavItem[] = [
-    { name: 'Home', path: '/', iconName: 'Rocket' },
+    { name: 'Home', path: '/', iconName: 'Home' },
     {
         name: 'People',
         path: '/people',

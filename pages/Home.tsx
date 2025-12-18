@@ -2,18 +2,26 @@ import React from 'react';
 import { ArrowRight, Brain, Cpu, Network, Calendar, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import CityDetectionBackground from '../components/CityDetectionBackground';
-import { researchTopicsData } from '../data/home';
-import { boardData } from '../data/board'; // Changed from newsData to boardData
+// Changed import from '../data/home' to '../data/research'
+import { researchData } from '../data/research';
+import { boardData } from '../data/board';
 
 const Home = () => {
-    // Helper to render icons based on string name
-    const renderIcon = (iconName: string) => {
-        switch (iconName) {
-            case 'Brain': return <Brain className="w-8 h-8 text-blue-600" />;
-            case 'Network': return <Network className="w-8 h-8 text-indigo-500" />;
-            case 'Cpu': return <Cpu className="w-8 h-8 text-sky-500" />;
-            default: return <Brain className="w-8 h-8 text-blue-600" />;
-        }
+    // Filter research data to exclude equipment and limit to first 4 areas
+    const displayResearch = researchData
+        .filter(item => item.title !== 'Research Equipment')
+        .slice(0, 4);
+
+    // Helper to render icons based on index
+    // Use current color to allow hover states to work
+    const getIconForIndex = (index: number) => {
+        const icons = [
+            <Brain className="w-8 h-8" />,   // Area 1
+            <Network className="w-8 h-8" />, // Area 2
+            <Cpu className="w-8 h-8" />,      // Area 3
+            <Brain className="w-8 h-8" />  // Area 4
+        ];
+        return icons[index % icons.length];
     };
 
     return (
@@ -68,20 +76,23 @@ const Home = () => {
                         <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {researchTopicsData.map((topic, index) => (
-                            <div key={index} className="bg-white border border-slate-100 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group">
+                    {/* Adjusted grid for 4 items: 1 col mobile, 2 cols tablet/desktop */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        {displayResearch.map((topic, index) => (
+                            <Link
+                                to={`/research?area=${topic.id}`}
+                                key={topic.id}
+                                className="bg-white border border-slate-100 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group flex flex-col cursor-pointer block"
+                            >
                                 <div className="bg-blue-50 w-16 h-16 rounded-xl flex items-center justify-center mb-6 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
-                                    {renderIcon(topic.iconName)}
+                                    {getIconForIndex(index)}
                                 </div>
-                                <h3 className="text-xl font-bold text-slate-900 mb-3">{topic.title}</h3>
-                                <p className="text-slate-600 leading-relaxed mb-6">
-                                    {topic.description}
-                                </p>
-                                <Link to="/research" className="inline-flex items-center text-blue-600 text-sm font-semibold hover:text-blue-700">
-                                    Learn more <ChevronRight size={16} />
-                                </Link>
-                            </div>
+                                <h3 className="text-xl font-bold text-slate-900 mb-3 line-clamp-2">{topic.title}</h3>
+                                <div className="text-slate-600 leading-relaxed mb-6 flex-grow line-clamp-3">
+                                    {/* Strip markdown for summary */}
+                                    {topic.description.split('### Overview')[1]?.split('###')[0].replace(/\*\*/g, '').trim().substring(0, 150) + '...'}
+                                </div>
+                            </Link>
                         ))}
                     </div>
                 </div>
@@ -101,7 +112,6 @@ const Home = () => {
                     </div>
 
                     <div className="space-y-4">
-                        {/* Use boardData instead of newsData, slice first 3 items */}
                         {boardData.slice(0, 3).map((item) => (
                             <Link
                                 to="/board"
@@ -110,11 +120,10 @@ const Home = () => {
                             >
                                 <div className="flex-1">
                                     <div className="flex items-center space-x-3 mb-2">
-                                        {/* BoardItem doesn't have category, using 'Notice' as default */}
                                         <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-600 border border-blue-100">
                                             Notice
                                         </span>
-                                        <div className="flex items-center text-slate-400 text-sm">
+                                        <div className="flex items-center text-slate-400 text-sm whitespace-nowrap">
                                             <Calendar size={14} className="mr-1" />
                                             {item.date}
                                         </div>
@@ -122,9 +131,6 @@ const Home = () => {
                                     <h3 className="text-lg font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
                                         {item.title}
                                     </h3>
-                                </div>
-                                <div className="mt-4 md:mt-0 md:ml-6 text-slate-400 group-hover:text-blue-600 transition-colors">
-                                    <ArrowRight size={20} className="transform group-hover:translate-x-1 transition-transform" />
                                 </div>
                             </Link>
                         ))}

@@ -46,7 +46,7 @@ const Board = () => {
                                                 <span>{item.author}</span>
                                             </div>
                                         </td>
-                                        <td className="px-6 py-5">
+                                        <td className="px-6 py-5 whitespace-nowrap">
                                             <div className="flex items-center text-slate-400">
                                                 <Calendar size={14} className="mr-2" />
                                                 <span>{item.date}</span>

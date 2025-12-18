@@ -1,25 +1,26 @@
 import { BoardItem } from '../types/Board';
 
 export const boardData: BoardItem[] = [
+    // id 번호 의미 없음
     {
         id: '1',
-        title: 'Lab Seminar Schedule - Fall 2024',
-        date: '2024-09-01',
+        title: '연구실 셀프 리모델링',
+        date: '2025-12-20',
         author: 'Admin',
-        content: 'The weekly seminar schedule has been updated.'
+        content: '-'
     },
     {
-        id: '2',
-        title: 'New Member Welcome',
-        date: '2024-03-02',
-        author: 'Prof. Kim',
-        content: 'Welcome to our new graduate students!'
+        id: '1',
+        title: '연구실 홈페이지 리뉴얼',
+        date: '2025-12-15',
+        author: 'Admin',
+        content: '-'
     },
     {
-        id: '3',
-        title: 'Conference Acceptance Notification',
-        date: '2024-01-15',
+        id: '1',
+        title: '최경훈, 전현식 학위논문 발표 진행',
+        date: '2025-12-04',
         author: 'Admin',
-        content: 'Congratulations on the paper acceptance at ICRA 2024.'
+        content: '-'
     }
 ];

@@ -1,10 +1,13 @@
 export type ProjectCategory = 'ongoing' | 'completed-gov' | 'completed-industry';
 
-export interface ProjectItem {
-    id: string;
+export interface Project {
+    id: number;
     title: string;
-    description?: string; // e.g., Funding agency, duration
-    link?: string;
+    funding: string; // 지원기관
+    period: string; // 연구기간
+    content?: string; // 내용
     category: ProjectCategory;
-    period?: string; // e.g., "2023.01 - 2025.12"
+    year?: number;
+    link?: string; // Legacy support
+    description?: string; // Legacy support
 }

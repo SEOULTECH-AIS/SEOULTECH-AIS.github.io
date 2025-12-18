@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X, ChevronDown, Rocket, Users, BookOpen, GraduationCap, Mail, Brain, Presentation, Briefcase, Layout } from 'lucide-react';
+import { Menu, X, ChevronDown, Rocket, Users, BookOpen, GraduationCap, Mail, Brain, Presentation, Briefcase, Layout, Home } from 'lucide-react';
 import { researchData } from '../data/research';
 import { navigationData } from '../data/navigation';
 
@@ -14,6 +14,7 @@ const Navbar = () => {
     // Helper to render icons
     const renderIcon = (iconName?: string) => {
         switch (iconName) {
+            case 'Home': return <Home size={18} />;
             case 'Rocket': return <Rocket size={18} />;
             case 'Users': return <Users size={18} />;
             case 'BookOpen': return <BookOpen size={18} />;
