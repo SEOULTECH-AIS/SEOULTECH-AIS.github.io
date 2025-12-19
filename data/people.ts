@@ -108,7 +108,7 @@ export const peopleData: Person[] = [
     "degree": "M.S."
   },
   {
-    "name": "Sung-hui Kang (강성희)",
+    "name": "Seong-hui Kang (강성희)",
     "role": "M.S. Student",
     "img": "/assets/images/members/m_강성희.png",
     "bio": "3D 공간 인식 | B.S. 신한대학교",
