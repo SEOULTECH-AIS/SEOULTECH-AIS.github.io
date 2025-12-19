@@ -99,9 +99,7 @@ npm run build
 - **아이콘**: `lucide-react` 라이브러리를 사용 중. 새로운 아이콘 필요 시 https://lucide.dev/icons 참고.
 
 - **웹 효과 설명**:
-<br>
-디자인 용어집 https://boisterous-malasada-221258.netlify.app/ 참고.
-<br>
-리액트 웹 효과 모음 https://reactbits.dev/backgrounds/dither 참고.
+- 디자인 용어집: https://boisterous-malasada-221258.netlify.app/ 참고.
+- 리액트 웹 효과 모음: https://reactbits.dev/backgrounds/dither 참고.
 
 ![Footer Logo](public/assets/images/AIS_logo.png)
