@@ -90,7 +90,7 @@ export const peopleData: Person[] = [
     "degree": "M.S."
   },
   {
-    "name": "Hyun-seung Choi (최현성)",
+    "name": "Hyeon-sung Choi (최현성)",
     "role": "M.S. Student",
     "img": "/assets/images/members/m_최현성.png",
     "bio": "3D Reconstruction | B.S. 인천대학교",
@@ -108,7 +108,7 @@ export const peopleData: Person[] = [
     "degree": "M.S."
   },
   {
-    "name": "Seung-hui Kang (강성희)",
+    "name": "Sung-hui Kang (강성희)",
     "role": "M.S. Student",
     "img": "/assets/images/members/m_강성희.png",
     "bio": "3D 공간 인식 | B.S. 신한대학교",
