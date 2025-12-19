@@ -98,6 +98,10 @@ npm run build
 - **이미지**: 로컬 이미지는 `public/images/` 디렉토리에 위치시키고 참조하는 것을 권장함. 현재 일부는 외부 링크나 레거시 경로를 사용 중일 수 있음.
 - **아이콘**: `lucide-react` 라이브러리를 사용 중. 새로운 아이콘 필요 시 https://lucide.dev/icons 참고.
 
-- **웹 효과 설명**: 디자인 용어집 https://boisterous-malasada-221258.netlify.app/ 참고.
+- **웹 효과 설명**:
+<br>
+디자인 용어집 https://boisterous-malasada-221258.netlify.app/ 참고.
+<br>
+리액트 웹 효과 모음 https://reactbits.dev/backgrounds/dither 참고.
 
 ![Footer Logo](public/assets/images/AIS_logo.png)
