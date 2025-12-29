@@ -4,7 +4,7 @@ export const peopleData: Person[] = [
   {
     "name": "Prof. Jong-Eun Ha (하종은)",
     "role": "Principal Investigator",
-    "img": "/assets/images/members/Prof_re.png",
+    "img": "/assets/images/members/Prof_ori.png",
     "bio": "Professor at SeoulTech | Computer Vision, Deep Learning, Robotics",
     "email": "jeha@seoultech.ac.kr",
     "category": "Professor",
