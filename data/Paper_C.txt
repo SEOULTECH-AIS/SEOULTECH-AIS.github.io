@@ -1,0 +1,98 @@
+98. Jin-Woo Kim and Jong-Eun Ha, “End-to-end camera pose estimation with camera ray token,” Electronics, 2025.
+97. Keong-Hun Choi and Jong-Eun Ha, “An adaptive threshold for the Canny edge with weak label,” Applied Sciences, 2025.
+96.	전현식, 김유민, 하종은, “ViewFormer 기반 다중 시점 3D 점유 인지 성능 향상을 위한 객체 마스크 모듈,” 제어로봇시스템학회 논문지, vol. 31, no. 10, pp. 1160-1168, 2025.
+95.	김유민, 하종은, “OIS 검사 장치의 CPU 및 GPU 기반 영상 처리 성능 비교,” 제어로봇시스템학회 논문지, vol. 31, no. 9, pp. 985-989, 2025.
+94.	전현식, 박상민, 하종은, “UniAD 모델 경량화 및 성능 비교,” 제어로봇시스템학회 논문지, vol. 31, no. 4, pp. 256-264, 2025.
+93.	Sang-Min Park and Jong-Eun Ha, “Semantic scene completion with 2d and 3d feature fusion,” IEEE Access, vol. 12, pp.141594-141603, 2024.
+92.	Yao Wang and Jong-Eun Ha, “Improved detr with class tokens in an encoder,” IEEE Access, vol. 12, pp.129498-129510, 2024.
+91.	Keong-Hun Choi and Jong-Eun Ha, “Object detection method using image and number of objects on image as label,” IEEE Access, vol. 12, pp.121915-121931, 2024.
+90.	박철홍, 하종은, “이미지와 점군을 이용한 CenterFormer 개선,” 제어로봇시 스템학회 논문지, vol. 30, no. 8, pp. 804-809, 2024.
+89.	Yao Wang and Jong-Eun Ha, “Improved object detection with content and position separation in transformer,” Remote Sensing, 16, 353, 2024.
+88.	Jae-Yeul Kim and Jong-Eun Ha, “MSF-NET: Foreground Objects Detection With Fusion of Motion and Semantic Features,” IEEE Access, vol. 11, pp.145551- 145565, 2023.
+87.	박철홍, 하종은, “Mask2Former를 이용한 크랙 시맨틱 분할,” 제어로봇시 스템학회 논문지, vol. 29, no. 12, pp. 1039-1045, 2023.
+86.	왕요, 하종은, “두 개의 인코더를 이용한 장면 텍스트 인식,” 제어로봇시 스템학회 논문지, vol. 29, no. 12, pp. 973-979, 2023.
+85.	박상민, 하종은, “다중 특징치 맵과 마스크드 오토인코드를 이용한 3D 시맨틱 장면 완성,” 제어로봇시 스템학회 논문지, vol. 29, no. 12, pp. 966-972, 2023.
+84.	Jae-Yeul Kim and Jong-Eun Ha, “Automatic Extrinsic Calibration of a Camera and a 2D LiDAR with Point-Line Correspondences,” IEEE Access, vol. 11, pp.76904- 76912, 2023.
+83.	Keong-Hun Choi, Jin-Woo Kim, Yao Wang, and Jong-Eun Ha, “Improved Image Classification With Token Fusion,” IEEE Access, vol. 11, pp.67460-67467, 2023.
+82.	Keong-Hun Choi and Jong-Eun Ha, “An Adaptive Threshold for the Canny Edge with Actor-Critic Algorithm,” IEEE Access, vol. 11, pp.67058-67069, 2023.
+81.	Jae-Yeul Kim and Jong-Eun Ha, “Foreground object detection in visual surveillance with spatio-temporal fusion network,” IEEE Access, vol. 10, pp. 122857-122869, 2022.
+80.	왕요, 하종은, “다중 패치를 이용한 트랜스포머 기반 장면 텍스트 인식,” 제어로봇시스템학회 논문지, vol. 28, no. 10, pp. 862-867,2022.
+79.	최경훈, 하종은, “객체 검출과 객체 분할 방법의 무인 감시 데이터셋 적용 결과 비 교,” 제어로봇시스템학회 논문지, vol. 28, no. 10, pp. 848-854,2022.
+78.	김진우, 하종은, “특징치 플립을 이용한 이미지 분류 모델,” 제어로봇시스템학회 논문 지, vol. 28, no. 10, pp. 903-909,2022.
+77.	Jae-Yeul Kim and Jong-Eun Ha, “Weakly supervised foreground object detection network using background model image,” IEEE Access, vol. 10, pp.105726-105733, 2022.
+76.	Jae-Yeul Kim and Jong-Eun Ha, “Spatio-Temporal Data Augmentation for Visual Surveillance,” IEEE Access, vol. 9, pp.165014-165033, 2021.
+75.	최경훈, 하종은, “태그 라벨과 트랜스포머를 이용한 시맨틱 분할,” 제어로봇시스템학 회 논문지, vol. 27, no. 12, pp. 1023-1028,2021.
+74.	염상식, 하종은, “이미지와 Voxel 을 이용한 3D 실내 점군 시맨틱 분할,” 제어로봇시 스템학회 논문지, vol. 27, no. 12, pp. 1000-1007,2021.
+73.	최경훈, 하종은, “무인 감시 Transformer,” 제어로봇시스템학회 논문지, vol. 27, no. 12, pp. 972-977,2021.
+72.	Keong-Hun Choi and Jong-Eun Ha, “An Adaptive Threshold for the Canny Algorithm With Deep Reinforcement Learning,” IEEE Access, vol. 9, pp.156846-156856, 2021.
+71.	Jae-Yeul Kim and Jong-Eun Ha, “Generation of Background Model Image Using Foreground Model,” IEEE Access, vol. 9, pp.127515-127530, 2021.
+70.	Jae-Yeul Kim and Jong-Eun Ha, “Foreground Objects Detection by U-Net with Multiple Difference Images,” Applied Sciences, 2021.
+69.	최경훈, 하종은, “CNN을 이용한 태양전지 불량 검출,” 제어로봇시스템학회 논문지, vol. 26, no. 12, pp. 1093-1098, 2020.
+68.	염상식, 하종은, “2D 시맨틱 분할 프로젝션을 이용한 3D 실내 공간 시맨틱 분할,” 제 어로봇시스템학회 논문지, vol. 26, no. 11, pp. 949-954, 2020.
+67.	최경훈, 하종은, “에지 비용 함수를 이용한 시맨틱 분할,” 제어로봇시스템학회 논문지, vol. 26, no. 11, pp. 916-921, 2020.
+66.	김재열, 하종은, “VAE 로 생성한 배경 이미지를 이용한 전경 물체 분할,” 제어로봇시 스템학회 논문지, vol. 26, no. 11, pp. 964-970, 2020.
+65.	Jae-Yeul Kim and Jong-Eun Ha, “Extrinsic Calibration of a Camera and a 2D LiDAR Using a Dummy Camera With IR Cut Filter Removed,” IEEE Access, vol. 8, pp.183071-183079, 2020.
+64.	하종은, “합성 이미지를 이용한 Mask R-CNN 기반 한국 번호판 검출,” 제어로봇시스 템학회 논문지, vol. 26, no. 9, pp. 778-783, 2020.
+63.	Jae-Yeul Kim and Jong-Eun Ha, “Foreground Objects Detection Using a Fully Convolutional Network With a Background Model Image and Multiple Original Images,” IEEE Access, vol. 8, pp. 159864-159878, 2020.
+62.	하종은, “사영 변환하의 합성 이미지를 이용한 Mask R-CNN 기반 QR 코드 검출,” 제 어로봇시스템학회 논문지, vol. 25, no. 9, pp. 770-774, 2019.
+61.	김대훈, 하종은, “두 개의 이종 CNN 융합을 이용한 차선 검출,” 제어로봇시스템학회 논문지, vol. 25, no. 9, pp. 753-759, 2019.
+60.	최경훈, 하종은, “에지 분류 CNN을 이용한 U-Net 기반 에지 검출,” 제어로봇시스템 학회 논문지, vol. 25, no. 8, pp. 684-689, 2019.
+59.	김재열, 하종은, “적외선 차단 필터를 제거한 더미 카메라를 이용한 카메라와 라이다 외부 보정 방법 평가,” 제어로봇시스템학회 논문지, vol. 25, no. 7, pp. 597-602, 2019.
+58.	Nam-Hun Kim and Jong-Eun Ha, “One Shot Extrinsic Calibration of a Camera and Laser Range Finder Using Vertical Planes,” Journal of Electrical Engineering & Technology, 2019.
+57.	장경석, 하종은, “칼라 체스보드를 이용한 RGB-D 센서와 로봇의 외부보정,” 제어로봇 시스템학회 논문지, vol. 25, no. 1, pp. 63-68, 2019.
+56.	장경석, 하종은, “칼라 정보를 이용한 스키 기문 검출,” 제어로봇시스템학회 논문지, vol. 24, no. 12, pp. 1123-1127, 2018.
+55.	하종은, “사영 변환하의 데이터 매트릭스 검출,” 제어로봇시스템학회 논문지, vol. 24, no. 12, pp. 1117-1122 2018.
+54.	김대훈, 하종은, “CNN 소실점 검출을 이용한 차선 검출,” 제어로봇시스템학회 논문 지, vol. 24, no. 9, pp. 851-856, 2018.
+53.	김대훈, 하종은, “로봇 물체 조작을 위한 딥러닝 시맨틱 분할을 이용한 물체 검출,” 제어로봇시스템학회 논문지, vol. 24, no. 9, pp. 802-808, 2018.
+52.	J. E. Ha, “Calibration of Structured Light Vision System using Multiple Vertical Planes,” Journal of Electrical Engineering & Technology, 13(1):438-444, 2018.
+51.	김대훈, 하종은, “CNN 과 전이 학습을 이용한 다차선 검출,” 제어로봇시스템학회 논문 지, vol. 23, no. 9, pp. 718-724, 2017.
+50.	하종은, “이진화 및 블랍 처리를 이용한 코일 돌출 검사,” 제어로봇시스템학회 논문 지, vol. 23, no. 6, pp. 469-473, 2017.
+49.	김진우, 하종은, “단안 카메라을 이용한 소형 자동차의 임무 수행,” 한국전자통신학회 논문지, vol. 12, no. 1, pp. 123-128, 2017.
+48.	김남훈, 하종은, “영상 처리를 이용한 소형 이족 보행 로봇의 임무 수행,” 한국전자통 신학회 논문지, vol. 11, no. 12, pp. 1225-1230, 2016.
+47.	하종은, “경계 추출 및 처리를 통한 다이아몬드 휠 검사,” 제어로봇시스템학회 논문 지, vol. 22, no. 11, pp. 932-936, 2016.
+46.	T.-H. Song and J.-E. Ha,“Visual surveillance using wide-angle camera and laser range finder,” Electronics Letters, 12(6):445-447, 2016.
+45.	하종은, “마커와 카메라를 이용한 스키드 구동 이동 로봇의 회전 운동 분석,” 한국전 자통신학회 논문지, vol. 11, no. 2, pp. 185-190, 2016.
+44.	송태훈, 하종은, “칼라 나사 검사를 위한 표면 영역 자동 추출,” 한국전자통신학회 논 문지, vol. 11, no. 1, pp. 107-111, 2016.
+43.	J.E. Ha, “Improved Algorithm for the Extrinsic Calibration of a Camera and Laser Range Finder using 3D-3D Correspondences,” International Journal of Control, Automation, and Systems, 13(5):1-5, 2015.
+42.	J.E. Ha, “Automatic Registration of Two Parts using Robot with Multiple 3D Sensor Systems,” Journal of Electrical Engineering & Technology, 10(4):1830-1835, 2015.
+41.	김진우, 송태훈, 하종은, “카메라와 슬릿 레이저를 이용한 나사 3D 형상 측정,” 한국 정밀공학회지, 32(6):537-542, 2015
+40.	허건, 하종은, “동작인식을 이용한 탁구 스윙 분석,” 제어·로봇·시스템 학회 논문지, 21(1):40-45, 2015
+39.	J.E. Ha and W.H. Lee, “Automatic Manipulation of Tie Rod using Robot with 3D Sensing System,” Journal of Electrical Engineering & Technology, 9(6):2162-2167, 2014.
+38.	J.E. Ha, “An Image Processing Algorithm for the Automatic Manipulation of Tie Rod,” International Journal of Control, Automation, and Systems, 11(5):984-990, 2013.
+37.	J.E. Ha and K.W. Her, “Calibration of structured light stripe system using plane with slits,” Optical Engineering, 52(1), 2013.
+36.	J.E. Ha, “Extrinsic Calibration of a Camera and Laser Range Finder Using a New Calibration Structure of a Plane with a Triangulation Hole,” International Journal of Control, Automation, and Systems, 10(6):1240-1244, 2012.
+35.	A. Vavilin, K.H. Jo, M.H. Jeong, J.E. Ha, and D.J. Kang, “Automatic Context Analysis for Image Classification and Retrieval,” Advanced Intelligent Computing, 2012.
+34.	J.E. Ha, “Grouping Contents on Korean Road Signs,” International Journal of Control, Automation, and Systems, 9(6):1187-1193, 2011.
+33.	최이삭, 하종은, “영상 교시기반 주행 알고리듬 성능 평가,” 제어·로봇·시스템 학회 논 문지, 17(9):902-907, 2011
+32.	J.E. Ha, “A New Method for Detecting Data Matrix under Similarity Transform for Machine Vision Applications,” International Journal of Control, Automation, and Systems, 9(4):737-741, 2011.
+31.	안인모, 하종은, “에지 투영과 PCA 를 이용한 차대 번호 인식,” 제어·로봇·시스템 학회 논문지, 17(5):479-483, 2011.
+30.	 J.E. Ha and I.S. Choi, “Simple method for calibrating omnidirectional stereo with multiple cameras,” Optical Engineering 50(4), 2011.
+29.	최이삭, 하종은, “속도 가변을 통한 영상교시 기반 주행 알고리듬 성능 향상,” 제어·로 봇·시스템 학회 논문지, 17(4):375-381, 2011.
+28.	J.H. Park, M.S. Shin, D.J. Kang, S.J. Lim, and J.E. Ha., “Improvement of Measurement Accuracy of Strain of Thin Film by CCD Camera with a Template Matching Method using the 2nd-Order Polynomial Interpolation,” International Journal of Modern Physics B, vol. 24, nos. 15&16, pp.3101-3106, 2010.
+27.	D.J. Kang, J.H. Park, M.S. Shin, J.E. Ha, and H.J. Lee., “Specimen alignment in an axial tensile test of thin films using direct imaging and its influence on the mechanical properties of BeCu,” Journal of Micromechanics and Microengineering, 20, 2010.
+26.	J.E. Ha and and W.H. Lee,“Foreground objects detection using multiple difference image,” Optical Engineering, 49(4), 2010.
+25.	J.H. Park, D.J. Kang, M.S. Shin, S.J. Lim, S.C. Yu, K.W. Lee, J.E. Ha, and S.H. Choa, “Easy calibration method of vision system for in-situ measurement of strain of thin films,” Transactions of Nonferrous Metals Society of China, 19, pp. 243-249, 2009.
+24.	J.E. Ha, “Automatic detection of chessboard and its applications,” Optical Engineering, 48(6), 2009.
+23.	D.J. Kang, S.J. Lim, J.E. Ha, and M.H. Jeong, “A detection cell using multiple points of a rotating triangle to find local planar regions from stereo depth data,” Pattern Recognition Letters, 30, pp. 486-493, 2009.
+22.	김세선, 김현수, 하종은, “스테레오 기반의 장애물 회피 알고리듬,” 제어·로봇·시스템 학회 논문지, 15(1):89-93, 2009.
+21.	D.J. Kang, J.E. Ha, and M.H. Jeong, “Detection of Calibration Patterns for Camera Calibration with Irregular Lighting and Complicated Backgrounds,” International Journal of Control, Automation, and Systems, 6(5):746-754, 2008.
+20.	J.E. Ha, J.H. Park, and D.J. Kang, “New strain measurement method at axial tensile test of thin films through direct imaging,” Journal of Physics D: Applied Physics, 41, 2008.
+19.	J.E. Ha, “Automatic detection of calibration markers on a chessboard,” Optical Engineering, 46(10), 2007.
+18.	J.E. Ha, D.J. Kang, M.H. Jeong, and W.H. Lee, “Robust Segmentation of Characters Marked on Surface,” LINCIS 345, pp. 478-487, 2006.
+17.	D.R. Uwamahoro, M.H. Jeong, B.J. You, J.E. Ha, and D.J. Kang, “Attentive Person Selection for Human-Robot Interaction,” LNCIS 345, pp. 728-734, 2006.
+16.	D.J. Kang, J.E. Ha, and M.H. Jeong, “A Method for Camera Pose Estimation from Objects of a Known Shape,” LNCIS 345, pp. 606-613, 2006.
+15.	D.J. Kang, J.E. Ha, and T.J. Lho, “A Fast Method for Detecting Moving Vehicles Using Plane Constraint of Geometric Invariance,” LNCS 3982, pp. 1163-1171, 2006.
+14.	J.E. Ha and D.J. Kang,“Fast Candidate Generation for Template Matching Using Two 1-D Edge Projections”, AI2005, LNAI 3809, pp. 1267-1271, 2005.
+13.	J.E. Ha and D.J. Kang,”Initialization method for self-calibration using 2-views”, Pattern Recognition, Vol. 38, No. 1, pp. 143-150, 2005.
+12.	D.J. Kang, J.E. Ha, and	M.H. Jeong,”A polyhedral object recognition algorithm for augmented reality”, LNCS 3331, 2004.
+11.	J.E. Ha, D.J. Kang, and M.H. Jeong,”Sequential robust direct motion estimation with equal projective basis”, LNCS 3331, 2004.
+10.	하 종은, 차 준혁, 권 인소,”CRT 판넬의 첵 불량 검출을 위한 새로운 조명 시스템”, 제어자동화시스템 공학 논문지, Vol. 10, No.6, pp.487-493, 2004.
+9.	하 종은, 권 인소,”각도 정보를 이용한 카메라 보정 알고리듬”, 제어자동화시스템 공학 논문지 Vol. 10, No.5, pp.415-420, 2004.
+8.	T.J. Lho, D.J. Kang, and J.E. Ha, “A line-based pose estimation algorithm for 3-D polyhedral object recognition”, LNCS 3046, pp.906-914, 2004.
+7.	J.E. Ha and D.J. Kang, “Initialization method for the self-calibration using minimal two images”, LNCS 3046, pp.896-905, 2004.
+6.	D.J. Kang, J.E. Ha, and I.M. Ahn, “Object mask segmentation using dynamic programming for poor quality images in automated inspection process”, LNCS 3046, 2004.
+5.	D.J. Kang, J.E. Ha, and I.S. Kweon, “Fast Object Recognition using Dynamic Programming from Combination of Salient Line Groups”, Pattern Recognition, Vol.36, No.1, pp.79-90, 2003.
+4.	J.E. Ha and I.S. Kweon, “3D structure recovery and calibration under varying intrinsic parameters using known angles”, Pattern Recognition, Vol.34, No.2, pp.351-359, 2001.
+3.	J.E. Ha and I.S. Kweon, “Robust direct motion estimation considering discontinuity”, Pattern Recognition Letters, Vol.11, No.21, pp.999-1011, 2000.
+2.	J.E. Ha and I.S. Kweon, “A new calibration algorithm using known angles”, Electronics Letters, Vol.36, No.1, pp.20-22, 2000.
+1.	하 종은, 이 재용, 권 인소, “표면의 반사모델을 이용한 타이어 정보마크의 추출”, 제어 자동화시스템 공학 논문지, Vol.2, No.4, pp.324-329, 1996.

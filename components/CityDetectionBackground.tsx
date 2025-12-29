@@ -1,14 +1,16 @@
-import React, { useRef, useMemo, useState } from 'react';
+import React, { useRef, useMemo, useState, useEffect } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import * as THREE from 'three';
+import { CITY_THEMES } from '../data/cityTheme';
 
 // --- Buildings Component ---
-const Buildings = () => {
+const Buildings = ({ themeColors }: { themeColors: any }) => {
     const mesh = useRef<THREE.InstancedMesh>(null);
     const dummy = useMemo(() => new THREE.Object3D(), []);
     const [isHovered, setIsHovered] = useState(false);
 
-    const buildings = useMemo(() => {
+    // Memoize random data 
+    const buildingsData = useMemo(() => {
         const spacing = 15;
         const count = 15; // 15x15 grid
         const data = [];
@@ -31,7 +33,7 @@ const Buildings = () => {
 
     useFrame((state) => {
         if (!mesh.current) return;
-        buildings.forEach((data, i) => {
+        buildingsData.forEach((data, i) => {
             dummy.position.set(data.x, data.h / 2, data.z);
             dummy.scale.set(data.w, data.h, data.d);
             dummy.updateMatrix();
@@ -43,14 +45,14 @@ const Buildings = () => {
     return (
         <instancedMesh
             ref={mesh}
-            args={[undefined, undefined, buildings.length]}
+            args={[undefined, undefined, buildingsData.length]}
             onPointerOver={() => setIsHovered(true)}
             onPointerOut={() => setIsHovered(false)}
         >
             <boxGeometry args={[1, 1, 1]} />
             <meshPhongMaterial
                 attach="material"
-                color={isHovered ? "#e2e8f0" : "#94a3b8"}
+                color={isHovered ? themeColors.buildingHover : themeColors.buildingStart}
                 transparent
                 opacity={isHovered ? 1.0 : 0.9}
             />
@@ -59,16 +61,33 @@ const Buildings = () => {
 };
 
 // --- Ground Component ---
-const Ground = () => {
+const Ground = ({ color }: { color: string }) => {
     return (
         <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.1, 0]}>
             <planeGeometry args={[1000, 1000]} />
-            <meshBasicMaterial attach="material" color="#f8fafc" />
+            <meshBasicMaterial attach="material" color={color} />
         </mesh>
     );
 }
 
 const CityDetectionBackground = () => {
+    // Theme Detection
+    const [theme, setTheme] = useState<'light' | 'dark'>(() => {
+        if (typeof window !== 'undefined' && window.matchMedia) {
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        return 'light';
+    });
+
+    useEffect(() => {
+        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        const handleChange = (e: MediaQueryListEvent) => setTheme(e.matches ? 'dark' : 'light');
+        mediaQuery.addEventListener('change', handleChange);
+        return () => mediaQuery.removeEventListener('change', handleChange);
+    }, []);
+
+    const colors = CITY_THEMES[theme];
+
     return (
         <div className="absolute inset-0 z-0">
             <Canvas
@@ -77,15 +96,17 @@ const CityDetectionBackground = () => {
                 gl={{ alpha: true, antialias: true }}
                 dpr={[1, 2]}
             >
-                <fog attach="fog" args={['#f8fafc', 5, 90]} />
+                {/* Use original density of 5 */}
+                <fog attach="fog" args={[colors.fog, 5, 90]} />
                 <ambientLight intensity={0.5} />
                 <pointLight position={[10, 10, 10]} intensity={0.5} />
 
-                <Buildings />
-                <Ground />
+                <Buildings themeColors={colors} />
+                <Ground color={colors.background} />
             </Canvas>
 
-            <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-80 pointer-events-none"></div>
+            {/* Gradient Overlay for Text Readability */}
+            <div className={`absolute inset-0 bg-gradient-to-t ${theme === 'dark' ? 'from-slate-900 via-slate-900/50 to-transparent' : 'from-white via-transparent to-transparent'} opacity-80 pointer-events-none`}></div>
         </div>
     );
 };
