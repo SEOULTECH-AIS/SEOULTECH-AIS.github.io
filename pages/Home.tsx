@@ -38,13 +38,18 @@ const Home = () => {
                 {/* pointer-events-none ensures clicks pass through the container */}
                 <div className="absolute inset-0 z-10 flex flex-col justify-center items-center pointer-events-none">
                     <div className="text-center max-w-5xl px-4 space-y-8 select-none">
-                        <h2 className="text-blue-600 dark:text-blue-400 font-bold tracking-[0.2em] text-sm md:text-base uppercase">
+                        {/* 
+                           V12 UPDATE: Removed 'pointer-events-auto' from text elements.
+                           Now mouse events will pass through the text to the canvas behind.
+                           Only the button remains clickable.
+                        */}
+                        <h2 className="text-blue-600 font-bold tracking-[0.2em] text-sm md:text-base uppercase">
                             Welcome to
                         </h2>
-                        <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-slate-900 dark:text-white tracking-tight leading-none">
-                            Autonomous Intelligent <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400">Systems</span>
+                        <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-slate-900 tracking-tight leading-none">
+                            Autonomous Intelligent <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Systems</span>
                         </h1>
-                        <p className="text-slate-600 dark:text-slate-300 text-xl md:text-2xl max-w-3xl mx-auto font-light leading-relaxed">
+                        <p className="text-slate-600 text-xl md:text-2xl max-w-3xl mx-auto font-light leading-relaxed">
                             We are dedicated to achieving state-of-the-art performance in AI by unifying visual perception, language understanding, and autonomous decision-making.
                         </p>
                         <div className="pt-8 w-full flex justify-center">
