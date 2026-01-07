@@ -14,8 +14,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "Professional",
-        "currentWorkplace": ""
+        "course": "Professional Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": []
+            }
+        ]
     },
     {
         "id": 1,
@@ -32,8 +37,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "Professional",
-        "currentWorkplace": ""
+        "course": "Professional Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": []
+            }
+        ]
     },
     {
         "id": 2,
@@ -50,8 +60,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "Professional",
-        "currentWorkplace": ""
+        "course": "Professional Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": []
+            }
+        ]
     },
     {
         "id": 3,
@@ -68,8 +83,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "Professional",
-        "currentWorkplace": ""
+        "course": "Professional Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": []
+            }
+        ]
     },
     {
         "id": 4,
@@ -86,8 +106,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "Professional",
-        "currentWorkplace": ""
+        "course": "Professional Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": []
+            }
+        ]
     },
     {
         "id": 5,
@@ -104,8 +129,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "Professional",
-        "currentWorkplace": ""
+        "course": "Professional Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": []
+            }
+        ]
     },
     {
         "id": 6,
@@ -122,8 +152,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "앤시스코리아"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["앤시스코리아"]
+            }
+        ]
     },
     {
         "id": 7,
@@ -140,8 +175,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "P&P(Point&Point) 소프트웨어 개발팀"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["P&P(Point&Point) 소프트웨어 개발팀"]
+            }
+        ]
     },
     {
         "id": 8,
@@ -158,8 +198,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "(주)하나기술"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["(주)하나기술"]
+            }
+        ]
     },
     {
         "id": 9,
@@ -176,8 +221,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "삼성전자"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["삼성전자"]
+            }
+        ]
     },
     {
         "id": 10,
@@ -194,8 +244,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "삼성전자"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["삼성전자"]
+            }
+        ]
     },
     {
         "id": 11,
@@ -212,8 +267,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "(주)로컬랩커뮤니티"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["(주)로컬랩커뮤니티"]
+            }
+        ]
     },
     {
         "id": 12,
@@ -230,8 +290,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "(주)렙스"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["(주)렙스"]
+            }
+        ]
     },
     {
         "id": 13,
@@ -248,8 +313,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "오스템임플란트"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["오스템임플란트"]
+            }
+        ]
     },
     {
         "id": 14,
@@ -266,8 +336,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "공간정보기술(주)"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["공간정보기술(주)"]
+            }
+        ]
     },
     {
         "id": 15,
@@ -290,8 +365,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "(주)웨이즈원"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["(주)웨이즈원"]
+            }
+        ]
     },
     {
         "id": 16,
@@ -308,8 +388,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "현대케피코"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["현대케피코"]
+            }
+        ]
     },
     {
         "id": 17,
@@ -326,8 +411,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "LG CNS"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["LG CNS"]
+            }
+        ]
     },
     {
         "id": 18,
@@ -344,8 +434,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "(주)웨이즈원"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["(주)웨이즈원"]
+            }
+        ]
     },
     {
         "id": 19,
@@ -362,8 +457,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "DGIST 박사 진학"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["DGIST 박사 진학"]
+            }
+        ]
     },
     {
         "id": 20,
@@ -386,8 +486,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "NavInfo"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["NavInfo"]
+            }
+        ]
     },
     {
         "id": 21,
@@ -404,8 +509,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "본교 박사 진학"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["본교 박사 진학"]
+            }
+        ]
     },
     {
         "id": 22,
@@ -422,8 +532,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "현대자동차"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["현대자동차"]
+            }
+        ]
     },
     {
         "id": 23,
@@ -440,8 +555,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "(주)엠티에스컴퍼니"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["(주)엠티에스컴퍼니"]
+            }
+        ]
     },
     {
         "id": 24,
@@ -458,8 +578,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "(주)웨이즈원"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["(주)웨이즈원"]
+            }
+        ]
     },
     {
         "id": 25,
@@ -476,8 +601,13 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "(주)로보큐브테크"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["(주)로보큐브테크"]
+            }
+        ]
     },
     {
         "id": 26,
@@ -494,7 +624,12 @@
             }
         ],
         "category": "Alumni",
-        "alumniType": "General",
-        "currentWorkplace": "(주)창무"
+        "course": "General Graduated",
+        "description": [
+            {
+                "title": "Current Workplace",
+                "contents": ["(주)창무"]
+            }
+        ]
     }
 ]

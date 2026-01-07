@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Mail, MapPin, GraduationCap, Briefcase, Award, BookOpen, Scroll, Calendar, Phone } from 'lucide-react';
-import { Person, Member, Alumni, Professor } from '@/types/Person';
+import { Person, Student, Professor } from '@/types/Person';
 import SmoothTabs from '@/components/SmoothTabs';
 import './People.css';
 
@@ -31,7 +31,7 @@ const PeopleView: React.FC<PeopleViewProps> = ({
 }) => {
 
     useEffect(() => {
-        console.log('Available member images keys:', Object.keys(memberImages));
+        // console.log('Available member images keys:', Object.keys(memberImages));
     }, []);
 
     const getProfileImageUrl = (person: Person) => {
@@ -55,7 +55,7 @@ const PeopleView: React.FC<PeopleViewProps> = ({
             if (matchingKey) {
                 imageModule = memberImages[matchingKey];
             } else {
-                 console.warn(`Image not found for: ${person.nameKo} (ID: ${person.id}), Path checked: ${path}`);
+                 // console.warn(`Image not found for: ${person.nameKo} (ID: ${person.id}), Path checked: ${path}`);
             }
         }
         
@@ -63,11 +63,8 @@ const PeopleView: React.FC<PeopleViewProps> = ({
     };
 
     const ProfileCard = ({ person }: { person: Person }) => {
-        const isAlumni = person.category === 'Alumni';
-        const isMember = person.category === 'Member';
-
-        const member = isMember ? (person as Member) : null;
-        const alumni = isAlumni ? (person as Alumni) : null;
+        const isAlumniTab = activeTab === 'Alumni';
+        const student = (person.category === 'Member' || person.category === 'Alumni') ? (person as Student) : null;
 
         // 학위 기간 계산
         const getYearRange = (year: number | string, degree?: string) => {
@@ -75,6 +72,74 @@ const PeopleView: React.FC<PeopleViewProps> = ({
             if (isNaN(yearNum)) return year;
             if (degree === 'Ph.D.') return `${yearNum - 4} - ${yearNum}`;
             else return `${yearNum - 2} - ${yearNum}`;
+        };
+
+        const renderDescriptionsWithWrapper = () => {
+            if (!student) return null;
+            const descs = student.description;
+
+            let content: React.ReactNode = null;
+
+            // 1. Member in Alumni tab (Custom Text)
+            if (isAlumniTab && person.category === 'Member') {
+                let customText = "";
+                if (student.course === 'Ph.D.' || student.course === 'M.S./Ph.D.') {
+                    customText = "본교 박사 진학";
+                } else if (student.course === 'Researcher') {
+                    customText = "본교 연구원";
+                }
+                
+                if (customText) {
+                    content = (
+                        <div className="flex items-start">
+                            <Briefcase size={16} className="text-blue-500 dark:text-blue-400 mr-2 mt-0.5 flex-shrink-0" />
+                            <span className="font-medium text-slate-700 dark:text-slate-300">{customText}</span>
+                        </div>
+                    );
+                }
+            }
+            // 2. Normal Description
+            else if (descs && descs.length > 0) {
+                const validDescs = descs.filter(d => 
+                    (Array.isArray(d.contents) && d.contents.length > 0) || 
+                    (typeof d.contents === 'string' && d.contents.trim() !== '')
+                );
+
+                if (validDescs.length > 0) {
+                    content = validDescs.map((desc, idx) => {
+                        let Icon = BookOpen;
+                        if (desc.title === 'Current Workplace') Icon = Briefcase;
+                        else if (desc.title === 'Research Interests') Icon = BookOpen;
+        
+                        return (
+                            <div key={idx} className="flex items-start mt-2 first:mt-0">
+                                <Icon size={16} className="text-blue-500 dark:text-blue-400 mr-2 mt-0.5 flex-shrink-0" />
+                                <div className="flex flex-col">
+                                    {Array.isArray(desc.contents) ? (
+                                        desc.contents.map((content: any, cIdx: number) => (
+                                            <span key={cIdx} className="font-medium text-slate-700 dark:text-slate-300">
+                                                {typeof content === 'string' ? content : JSON.stringify(content)}
+                                            </span>
+                                        ))
+                                    ) : (
+                                        <span className="font-medium text-slate-700 dark:text-slate-300">
+                                            {desc.contents as string}
+                                        </span>
+                                    )}
+                                </div>
+                            </div>
+                        );
+                    });
+                }
+            }
+
+            if (!content) return null;
+
+            return (
+                <div className={isAlumniTab ? "pt-2 border-t border-slate-50 dark:border-slate-800 mt-2" : "mt-2"}>
+                    {content}
+                </div>
+            );
         };
 
         return (
@@ -89,7 +154,7 @@ const PeopleView: React.FC<PeopleViewProps> = ({
                 </div>
                 <div className="profile-card__info">
                     <h3 className="profile-card__name">{person.nameEn} <span className="text-sm font-normal text-slate-500 dark:text-slate-400">({person.nameKo})</span></h3>
-                    {!isAlumni && (
+                    {!isAlumniTab && (
                         <div className="profile-card__role">
                             {person.role}
                         </div>
@@ -102,62 +167,36 @@ const PeopleView: React.FC<PeopleViewProps> = ({
                     )}
                     
                     <div className="profile-card__bio">
-                        {/* Member: Research Interests & Academic Background */}
-                        {member && (
-                            <>
-                                {member.researchInterests && member.researchInterests.length > 0 && (
-                                    <div className="flex items-start">
-                                        <BookOpen size={16} className="text-blue-500 dark:text-blue-400 mr-2 mt-0.5 flex-shrink-0" />
-                                        <div className="flex flex-col">
-                                            {member.researchInterests.map((interest, idx) => (
-                                                <span key={idx} className="font-medium text-slate-700 dark:text-slate-300">{interest}</span>
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
-                                {member.academicBackground && member.academicBackground.length > 0 && (
-                                    <div className="flex items-start mt-2">
-                                        <GraduationCap size={16} className="text-slate-400 dark:text-slate-500 mr-2 mt-0.5 flex-shrink-0" />
-                                        <div className="flex flex-col text-slate-500 dark:text-slate-400">
-                                            {member.academicBackground.map((edu, idx) => (
-                                                <span key={idx} className="text-sm">
-                                                    {edu.degree} in {edu.school} ({edu.year})
-                                                </span>
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
-                            </>
+                        
+                        {/* 1. Academic Background */}
+                        {student && student.academicBackground && student.academicBackground.length > 0 && (
+                            <div className="flex items-start">
+                                <GraduationCap size={16} className="text-slate-400 dark:text-slate-500 mr-2 mt-0.5 flex-shrink-0" />
+                                <div className="flex flex-col w-full">
+                                    {student.academicBackground.map((edu, idx) => {
+                                        const isSeoulTech = edu.school && (edu.school.includes('서울과학기술대학교') || edu.school.includes('SeoulTech'));
+                                        const showSchool = edu.school && (!isAlumniTab || !isSeoulTech);
+                                        
+                                        return (
+                                            <div key={idx} className="mb-2 last:mb-0">
+                                                <div className="text-sm font-medium text-slate-600 dark:text-slate-300">
+                                                    {edu.degree} {showSchool ? `in ${edu.school}` : ''} ({edu.year})
+                                                </div>
+                                                {edu.thesis && (
+                                                    <div className="flex items-start mt-1">
+                                                        <Scroll size={14} className="text-blue-400 mr-1.5 mt-0.5 flex-shrink-0" />
+                                                        <span className="text-xs italic text-slate-500 dark:text-slate-400 leading-snug">{edu.thesis}</span>
+                                                    </div>
+                                                )}
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            </div>
                         )}
 
-                        {/* Alumni: Year, Workplace, Thesis */}
-                        {alumni && (
-                            <>
-                                {alumni.academicBackground && alumni.academicBackground.map((edu, idx) => (
-                                    <div key={idx} className="mb-2">
-                                         <div className="flex items-center">
-                                            <Calendar size={16} className="text-slate-400 dark:text-slate-500 mr-2 flex-shrink-0" />
-                                            <span className="text-slate-600 dark:text-slate-300 font-semibold">
-                                                {getYearRange(edu.year, edu.degree)} ({edu.degree})
-                                            </span>
-                                        </div>
-                                        {edu.thesis && (
-                                            <div className="flex items-start mt-1">
-                                                <Scroll size={16} className="text-blue-500 dark:text-blue-400 mr-2 mt-0.5 flex-shrink-0" />
-                                                <span className="text-slate-600 dark:text-slate-400 italic text-sm">{edu.thesis}</span>
-                                            </div>
-                                        )}
-                                    </div>
-                                ))}
-                                
-                                {alumni.currentWorkplace && (
-                                    <div className="flex items-start mt-2 pt-2 border-t border-slate-50 dark:border-slate-800">
-                                        <Briefcase size={16} className="text-slate-400 dark:text-slate-500 mr-2 mt-0.5 flex-shrink-0" />
-                                        <span className="text-slate-700 dark:text-slate-300 font-medium">{alumni.currentWorkplace}</span>
-                                    </div>
-                                )}
-                            </>
-                        )}
+                        {/* 2. Description (Wrapped) */}
+                        {renderDescriptionsWithWrapper()}
                     </div>
                 </div>
             </div>

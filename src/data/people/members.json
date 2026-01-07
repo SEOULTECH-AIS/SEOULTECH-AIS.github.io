@@ -20,10 +20,15 @@
             }
         ],
         "category": "Member",
-        "currentCourse": "Ph.D.",
-        "researchInterests": [
-            "Dense Semantic SLAM",
-            "객체 인식"
+        "course": "Ph.D.",
+        "description": [
+            {
+                "title": "Research Interests",
+                "contents": [
+                    "Dense Semantic SLAM",
+                    "객체 인식"
+                ]
+            }
         ]
     },
     {
@@ -41,10 +46,15 @@
             }
         ],
         "category": "Member",
-        "currentCourse": "M.S.",
-        "researchInterests": [
-            "자율 주행",
-            "공간인지"
+        "course": "M.S.",
+        "description": [
+            {
+                "title": "Research Interests",
+                "contents": [
+                    "자율 주행",
+                    "공간인지"
+                ]
+            }
         ]
     },
     {
@@ -62,10 +72,15 @@
             }
         ],
         "category": "Member",
-        "currentCourse": "M.S.",
-        "researchInterests": [
-            "HD Map",
-            "자율주행 인프라"
+        "course": "M.S.",
+        "description": [
+            {
+                "title": "Research Interests",
+                "contents": [
+                    "HD Map",
+                    "자율주행 인프라"
+                ]
+            }
         ]
     },
     {
@@ -83,9 +98,14 @@
             }
         ],
         "category": "Member",
-        "currentCourse": "M.S.",
-        "researchInterests": [
-            "3D Reconstruction"
+        "course": "M.S.",
+        "description": [
+            {
+                "title": "Research Interests",
+                "contents": [
+                    "3D Reconstruction"
+                ]
+            }
         ]
     },
     {
@@ -103,9 +123,14 @@
             }
         ],
         "category": "Member",
-        "currentCourse": "M.S.",
-        "researchInterests": [
-            "Dense Semantic SLAM"
+        "course": "M.S.",
+        "description": [
+            {
+                "title": "Research Interests",
+                "contents": [
+                    "Dense Semantic SLAM"
+                ]
+            }
         ]
     },
     {
@@ -123,9 +148,14 @@
             }
         ],
         "category": "Member",
-        "currentCourse": "M.S.",
-        "researchInterests": [
-            "3D 공간 인식"
+        "course": "M.S.",
+        "description": [
+            {
+                "title": "Research Interests",
+                "contents": [
+                    "3D 공간 인식"
+                ]
+            }
         ]
     }
 ]
