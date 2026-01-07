@@ -2,14 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { User, Users, GraduationCap } from 'lucide-react';
 import professorData from '@/data/people/professor.json';
-import membersDataRaw from '@/data/people/members.json';
-import alumniDataRaw from '@/data/people/alumni.json';
-import { Person, Member, Alumni, Professor } from '@/types/Person';
+import studentsDataRaw from '@/data/people/students.json';
+import { Person, Student, Professor } from '@/types/Person';
 import PeopleView from '@/pages/People/PeopleView';
 
 const professor = professorData as Professor;
-const members = membersDataRaw as Member[];
-const alumni = alumniDataRaw as Alumni[];
+const students = studentsDataRaw as Student[];
 
 const PeopleContainer = () => {
     const location = useLocation();
@@ -38,10 +36,26 @@ const PeopleContainer = () => {
         navigate(`/people?area=${id.toLowerCase()}`);
     };
 
+    // Filter Members and Alumni from unified data
+    const members = students.filter(p => p.category === 'Member');
+    
+    // Alumni include graduated students AND members who obtained a graduate degree from our lab
+    const alumni = students.filter(p => {
+        if (p.category === 'Alumni') return true;
+        if (p.category === 'Member') {
+            // Check if they have a graduate degree from SeoulTech
+            return p.academicBackground?.some(degree => 
+                (degree.degree === 'M.S.' || degree.degree === 'Ph.D.') &&
+                (degree.school.includes('서울과학기술대학교') || degree.school.includes('SeoulTech'))
+            );
+        }
+        return false;
+    });
+
     // Sort Members: Ph.D. first, then M.S.
     const sortedMembers = [...members].sort((a, b) => {
-        const getPriority = (m: Member) => {
-            if (m.currentCourse === 'Ph.D.' || m.currentCourse === 'M.S./Ph.D.' || m.role.includes('Ph.D.')) return 1;
+        const getPriority = (m: Student) => {
+            if (m.course === 'Ph.D.' || m.course === 'M.S./Ph.D.' || m.role.includes('Ph.D.')) return 1;
             return 2; // M.S. and others
         };
         return getPriority(a) - getPriority(b);
@@ -49,7 +63,6 @@ const PeopleContainer = () => {
 
     // Helper to extract graduation year for sorting
     const getGraduationYear = (p: Person) => {
-        // 가장 최근 학위 연도를 기준으로 정렬
         if (p.academicBackground && p.academicBackground.length > 0) {
             const lastDegree = p.academicBackground[p.academicBackground.length - 1];
             if (typeof lastDegree.year === 'number') return lastDegree.year;
@@ -64,8 +77,12 @@ const PeopleContainer = () => {
     };
 
     // Split Alumni Logic
-    const generalAlumni = alumni.filter(p => p.alumniType === 'General');
-    const professionalAlumni = alumni.filter(p => p.alumniType === 'Professional');
+    // Members are considered part of General Graduate School
+    const generalAlumni = alumni.filter(p => 
+        p.course === 'General Graduated' || 
+        p.category === 'Member'
+    );
+    const professionalAlumni = alumni.filter(p => p.course === 'Professional Graduated');
 
     // Filter by final degree obtained
     const isPhD = (p: Person) => {
@@ -75,7 +92,7 @@ const PeopleContainer = () => {
     };
 
     const generalPhD = sortAlumni(generalAlumni.filter(p => isPhD(p)));
-    const generalMS = sortAlumni(generalAlumni.filter(p => !isPhD(p))); // Assuming non-PhD are MS
+    const generalMS = sortAlumni(generalAlumni.filter(p => !isPhD(p)));
 
     const professionalMS = sortAlumni(professionalAlumni);
 
