@@ -12,6 +12,16 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     build: {
       outDir: 'docs',
+      chunkSizeWarningLimit: 500,
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+            'three-vendor': ['three', '@react-three/fiber'],
+            'ui-vendor': ['framer-motion', 'lucide-react']
+          }
+        }
+      }
     },
     define: {
       'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
@@ -19,7 +29,7 @@ export default defineConfig(({ mode }) => {
     },
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': path.resolve(__dirname, './src'),
       }
     }
   };
