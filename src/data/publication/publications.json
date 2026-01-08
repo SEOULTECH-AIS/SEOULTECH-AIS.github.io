@@ -194,7 +194,7 @@
                 ]
             ]
         },
-        "author": "최현성, 왕요, 하종은",
+        "author": "최현성, Wang, Yao, 하종은",
         "citation-key": "coehyeonseong2025noposplateul",
         "container-title": "제어로봇시스템학회 국내학술대회 논문집",
         "event-title": "2025 제40회 제어로봇시스템학회 학술대회",
@@ -216,7 +216,7 @@
         "venue": "제어로봇시스템학회 국내학술대회 논문집"
     },
     {
-        "id": "ting2025dust3rreul",
+        "id": "deueongdeugting2025dust3rreul",
         "accessed": {
             "date-parts": [
                 [
@@ -226,8 +226,8 @@
                 ]
             ]
         },
-        "author": "팅드엉 득, 경훈최, 종은하",
-        "citation-key": "ting2025dust3rreul",
+        "author": "드엉 득 팅, 최경훈, 하종은",
+        "citation-key": "deueongdeugting2025dust3rreul",
         "container-title": "제어로봇시스템학회 국내학술대회 논문집",
         "event-title": "2025 제40회 제어로봇시스템학회 학술대회",
         "issued": {
@@ -424,7 +424,7 @@
         "doi": "10.3390/rs16020353"
     },
     {
-        "id": "yumin2024gpureul",
+        "id": "gimyumin2024gpureul",
         "accessed": {
             "date-parts": [
                 [
@@ -434,8 +434,8 @@
                 ]
             ]
         },
-        "author": "유민김, 종은하",
-        "citation-key": "yumin2024gpureul",
+        "author": "김유민, 하종은",
+        "citation-key": "gimyumin2024gpureul",
         "container-title": "제어로봇시스템학회 국내학술대회 논문집",
         "event-title": "2024 제39회 제어로봇시스템학회 학술대회",
         "issued": {
@@ -1823,7 +1823,7 @@
         "doi": "10.23919/ICCAS50221.2020.9268373"
     },
     {
-        "id": "wang2020simceung",
+        "id": "yaowang2020simceung",
         "accessed": {
             "date-parts": [
                 [
@@ -1833,8 +1833,8 @@
                 ]
             ]
         },
-        "author": "Wang, Yao, 하종은",
-        "citation-key": "wang2020simceung",
+        "author": "Yao Wang, 하종은",
+        "citation-key": "yaowang2020simceung",
         "container-title": "제어로봇시스템학회 국내학술대회 논문집",
         "event-title": "2020 제35회 제어로봇시스템학회 학술대회 (ICROS)",
         "issued": {
@@ -3987,7 +3987,7 @@
         },
         "author": "Choi, I-Sak, Ha, Jong-Eun",
         "citation-key": "choi2010easy",
-        "container-title": "2010 10th International Conference on Control, Automation and Systems",
+        "container-title": "ICCAS 2010",
         "DOI": "10.1109/ICCAS.2010.5669912",
         "event-title": "2010 10th International Conference on Control, Automation and Systems",
         "issued": {
@@ -4005,7 +4005,7 @@
         "URL": "https://ieeexplore.ieee.org/abstract/document/5669912",
         "category": "international-conference",
         "year": 2010,
-        "venue": "2010 10th International Conference on Control, Automation and Systems",
+        "venue": "ICCAS 2010",
         "doi": "10.1109/ICCAS.2010.5669912"
     },
     {
@@ -4039,7 +4039,7 @@
         },
         "author": "Ha, Jong-Eun, Kang, Dong-Joong, Lee, Wang-Heon",
         "citation-key": "ha2010learningbased",
-        "container-title": "2010 10th International Conference on Control, Automation and Systems",
+        "container-title": "ICCAS 2010",
         "DOI": "10.1109/ICCAS.2010.5669917",
         "event-title": "2010 10th International Conference on Control, Automation and Systems",
         "issued": {
@@ -4057,7 +4057,7 @@
         "URL": "https://ieeexplore.ieee.org/abstract/document/5669917",
         "category": "international-conference",
         "year": 2010,
-        "venue": "2010 10th International Conference on Control, Automation and Systems",
+        "venue": "ICCAS 2010",
         "doi": "10.1109/ICCAS.2010.5669917"
     },
     {
@@ -4809,7 +4809,7 @@
         "page": "2389–2392",
         "title": "Fast stereo matching algorithm using edge projection",
         "type": "paper-conference",
-        "category": "domestic-conference",
+        "category": "international-conference",
         "year": 2005,
         "venue": "제어로봇시스템학회 국제학술대회 논문집"
     },
@@ -4829,7 +4829,7 @@
         "page": "2393–2396",
         "title": "Moving vehicle segmentation from plane constraint",
         "type": "paper-conference",
-        "category": "domestic-conference",
+        "category": "international-conference",
         "year": 2005,
         "venue": "제어로봇시스템학회 국제학술대회 논문집"
     },
@@ -4849,7 +4849,7 @@
         "page": "2496–2498",
         "title": "Application passband filter of multiply cascaded phase-shifted long-period fiber gratings",
         "type": "paper-conference",
-        "category": "domestic-conference",
+        "category": "international-conference",
         "year": 2005,
         "venue": "제어로봇시스템학회 국제학술대회 논문집"
     },
@@ -4869,7 +4869,7 @@
         "page": "2435–2439",
         "title": "A pyramidal mirror system calibration method for robotic assembly",
         "type": "paper-conference",
-        "category": "domestic-conference",
+        "category": "international-conference",
         "year": 2005,
         "venue": "제어로봇시스템학회 국제학술대회 논문집"
     },
@@ -5256,7 +5256,8 @@
         "id": "ha2003new",
         "author": "Ha, Jong-Eun, Kang, Dong-Joong",
         "citation-key": "ha2003new",
-        "container-title": "제어로봇시스템학회 학술대회논문집",
+        "container-title": "제어로봇시스템학회 국제학술대회논문집",
+        "event-title": "International Conference on Control, Automation and Systems",
         "issued": {
             "date-parts": [
                 [
@@ -5268,15 +5269,15 @@
         "publisher": "Institute of Control, Robotics and Systems",
         "title": "New Initialization method for the robust self-calibration of the camera",
         "type": "paper-conference",
-        "category": "domestic-conference",
+        "category": "international-conference",
         "year": 2003,
-        "venue": "제어로봇시스템학회 학술대회논문집"
+        "venue": "제어로봇시스템학회 국제학술대회논문집"
     },
     {
         "id": "kang2003modelbased",
         "author": "Kang, Dong-Joong, Ha, Jong-Eun",
         "citation-key": "kang2003modelbased",
-        "container-title": "제어로봇시스템학회 학술대회논문집",
+        "container-title": "제어로봇시스템학회 국제학술대회논문집",
         "event-title": "International Conference on Control, Automation and Systems",
         "issued": {
             "date-parts": [
@@ -5289,9 +5290,9 @@
         "publisher": "Institute of Control, Robotics and Systems",
         "title": "A model-based 3-D pose estimation method from line correspondences of polyhedral objects",
         "type": "paper-conference",
-        "category": "domestic-conference",
+        "category": "international-conference",
         "year": 2003,
-        "venue": "제어로봇시스템학회 학술대회논문집"
+        "venue": "제어로봇시스템학회 국제학술대회논문집"
     },
     {
         "id": "ha20013d",

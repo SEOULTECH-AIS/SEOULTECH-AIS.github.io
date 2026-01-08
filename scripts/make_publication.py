@@ -1,98 +1,121 @@
+from itertools import chain
 import json
 import re
 from pathlib import Path
 
-def has_korean(text):
+def __Has_korean__(text: str):
     """Check if the text contains any Korean characters."""
     if not text:
         return False
-    korean_pattern = re.compile(r'[\uac00-\ud7a3]')
-    return bool(korean_pattern.search(text))
+    _pattern = re.compile(r'[\uac00-\ud7a3]')
+    return bool(_pattern.search(text))
 
-def format_author(authors):
+def __Author_parser__(authors: str | list[dict]):
     """Convert author list to string representation."""
     if isinstance(authors, str):
         return authors
     if not isinstance(authors, list):
         return ""
-    formatted = []
-    for p in authors:
-        if "literal" in p:
-            formatted.append(p["literal"])
-        elif "family" in p or "given" in p:
-            family = p.get("family", "")
-            given = p.get("given", "")
-            if has_korean(family) or has_korean(given):
-                name = f"{family}{given}".strip()
-                formatted.append(name)
+    _parser = []
+    for _person in authors:
+        if "literal" in _person:
+            _parser.append(_person["literal"])  # save full name
+        elif "family" in _person or "given" in _person:
+            _family = _person.get("family", "")
+            _given = _person.get("given", "")
+            if __Has_korean__(_family) or __Has_korean__(_given):
+                name = f"{_family}{_given}".strip()
+                _parser.append(name)
             else:
                 parts = []
-                if family: parts.append(family)
-                if given: parts.append(given)
-                formatted.append(", ".join(parts))
-    return ", ".join(formatted)
+                if _family:
+                    parts.append(_family)
+                if _given:
+                    parts.append(_given)
+                _parser.append(", ".join(parts))
+    return ", ".join(_parser)
 
-def load_and_process(file_path, pub_type):
+def __Get_data_from__(data_root: Path, pub_type: str):
     """Loads and processes a single publication file."""
-    path = Path(file_path)
-    if not path.exists():
-        print(f"Warning: File not found: {file_path}")
+    _file_path = data_root / f"{pub_type}.json"
+
+    if not _file_path.exists():
+        print(f"Warning: File not found: {_file_path}")
         return []
 
-    with path.open("r", encoding="UTF-8") as f:
+    with _file_path.open("r", encoding="UTF-8") as _f:
         try:
-            data = json.load(f)
+            _meta_data: list[dict] = json.load(_f)
         except json.JSONDecodeError:
             return []
 
-    processed = []
-    for item in data:
-        title = item.get("title", "")
-        container_title = item.get("container-title", "")
-        event_title = item.get("event-title", "")
-        
+    _processed = []
+    for _item in _meta_data:
+        _title = _item.get("title", "")
+
+        # 출판 정보
+        _pub_title = _item.get("container-title", "")
+        _event_title = _item.get("event-title", "")
+
         # Determine category
-        is_domestic = has_korean(title) or has_korean(container_title) or has_korean(event_title)
-        scope = "domestic" if is_domestic else "international"
-        item["category"] = f"{scope}-{pub_type}"
-        
+        # 1. Check for explicit "Domestic" keyword in venue
+        if any("국내" in _txt for _txt in [_pub_title, _event_title]):
+            _region = "domestic"
+        # 2. Check for explicit "International" keyword in venue
+        elif any("국제" in _txt for _txt in [_pub_title, _event_title]):
+            _region = "international"
+        # 3. Fallback: Check for any Korean characters
+        else:
+            _region = "domestic" if any(
+                __Has_korean__(
+                    _txt
+                ) for _txt in [_title, _pub_title, _event_title]
+            ) else "international"
+
+        _item["category"] = f"{_region}-{pub_type}"
+
         # Extract Year
-        year = 0
-        if "issued" in item and "date-parts" in item["issued"]:
+        _year = 0
+        if "issued" in _item and "date-parts" in _item["issued"]:
             try:
-                year = int(item["issued"]["date-parts"][0][0])
+                _year = int(_item["issued"]["date-parts"][0][0])
             except (IndexError, ValueError, TypeError):
                 pass
-        item["year"] = year
+        _item["year"] = _year
 
         # Set Venue
-        item["venue"] = container_title if container_title else event_title
+        _item["venue"] = _pub_title if _pub_title else _event_title
 
         # Format Author
-        if isinstance(item.get("author"), list):
-            item["author"] = format_author(item["author"])
-        
+        if isinstance(_item.get("author"), list):
+            _item["author"] = __Author_parser__(_item["author"])
+
         # Normalize DOI
-        if "DOI" in item:
-            item["doi"] = item["DOI"]
-        
-        processed.append(item)
-    return processed
+        if "DOI" in _item:
+            _item["doi"] = _item["DOI"]
+
+        _processed.append(_item)
+    return _processed
 
 if __name__ == "__main__":
+    _data_root = Path("./src/data/publication")
+
     # 1. Load and process both datasets
-    journals = load_and_process("scripts/source/journals.json", "journal")
-    conferences = load_and_process("scripts/source/conferences.json", "conference")
-    
+    _processed_data = [
+        __Get_data_from__(
+            _data_root, _pub_type
+        ) for _pub_type in ["journal", "conference"]
+    ]
+
     # 2. Merge
-    all_publications = journals + conferences
-    
+    _all_pub: list[dict] = list(chain(*_processed_data))
+
     # 3. Sort by year (descending)
-    all_publications.sort(key=lambda x: x.get("year", 0), reverse=True)
-    
+    _all_pub.sort(key=lambda x: x.get("year", 0), reverse=True)
+
     # 4. Save to merged JSON file
-    output_path = Path("src/data/publications.json")
-    with output_path.open("w", encoding="UTF-8") as f:
-        json.dump(all_publications, f, indent=4, ensure_ascii=False)
-    
-    print(f"Successfully merged {len(all_publications)} items into {output_path}")
+    _write_file = _data_root / "publications.json"
+    with _write_file.open("w", encoding="UTF-8") as f:
+        json.dump(_all_pub, f, indent=4, ensure_ascii=False)
+
+    print(f"Successfully merged {len(_all_pub)} items into {_write_file}")

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Layers, Globe, MapPin } from 'lucide-react';
-import publicationsDataJson from '@/data/publications.json';
+import publicationsDataJson from '@/data/publication/publications.json';
 import { PublicationItem, PublicationCategory } from '@/types/Publication';
 import PublicationsView from '@/pages/Publications/PublicationsView';
 
