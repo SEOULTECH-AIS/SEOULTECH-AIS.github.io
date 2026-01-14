@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Core Infrastructure",
+        "contents": [
+            "• Personal Infrastructure: High-end Linux PC provided for each researcher.",
+            "• Training Resources: 3 dedicated Multi-GPU Workstations.",
+            "• Storage Systems: Centralized high-capacity Data Server.",
+            "• External Compute: Full access to University HPC Cluster."
+        ]
+    },
+    {
+        "title": "Update Notice",
+        "contents": "A comprehensive equipment inventory table is currently being prepared and will be updated shortly."
+    }
+]

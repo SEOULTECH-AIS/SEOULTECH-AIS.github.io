@@ -4,6 +4,10 @@ import { BookOpen, GraduationCap, Users, Clock, History, Award, Presentation } f
 import SmoothTabs, { TabItem } from '@/components/SmoothTabs/index';
 import './Courses.css';
 
+// Import images
+import capstone1 from '@/assets/Research_image/capstone_1.png';
+import capstone2 from '@/assets/Research_image/capstone_2.png';
+
 interface CoursesViewProps {
     activeTab: CourseCategory;
     onTabChange: (id: CourseCategory) => void;
@@ -172,7 +176,7 @@ const CoursesView: React.FC<CoursesViewProps> = ({
                                 <div className="capstone-image-card group">
                                     <div className="capstone-image-wrapper">
                                         <img
-                                            src="/assets/images/Research_image/capstone_1.png"
+                                            src={capstone1}
                                             alt="Capstone Design 1"
                                             className="capstone-image group-hover:scale-[1.02]"
                                         />
@@ -184,7 +188,7 @@ const CoursesView: React.FC<CoursesViewProps> = ({
                                 <div className="capstone-image-card group">
                                     <div className="capstone-image-wrapper">
                                         <img
-                                            src="/assets/images/Research_image/capstone_2.png"
+                                            src={capstone2}
                                             alt="Capstone Design 2"
                                             className="capstone-image group-hover:scale-[1.02]"
                                         />

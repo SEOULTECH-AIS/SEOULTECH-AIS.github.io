@@ -24,7 +24,15 @@
         @apply text-slate-600 dark:text-slate-400 max-w-2xl mx-auto text-lg leading-relaxed transition-colors duration-300;
     }
 
-    /* Content Card */
+    /* Tabs Override for 3-2 Split */
+    .research-tabs-wrapper {
+        @apply flex justify-center mb-12;
+    }
+    
+    .research-tabs-override .tabs-container {
+        @apply max-w-[950px] !important; 
+        /* Force wrap by constraining width. Adjusted for desktop to fit ~3 long items then wrap */
+    }
     .research-content-card {
         @apply bg-white dark:bg-slate-900 rounded-3xl shadow-xl border border-slate-100 dark:border-slate-800 overflow-hidden flex flex-col transition-all duration-300;
     }

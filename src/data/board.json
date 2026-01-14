@@ -1,23 +1,46 @@
 [
   {
-    "id": "1",
-    "title": "연구실 셀프 리모델링",
-    "date": { "year": 2025, "month": 12, "day": 20 },
+    "id": "4",
+    "title": "연구실 데이터 서버 업그레이드",
+    "date": {
+      "year": 2026,
+      "month": 1,
+      "day": 14
+    },
     "author": "Admin",
-    "contents": "-"
+    "contents": "진행중"
+  },
+  {
+    "id": "3",
+    "title": "연구실 기자재 구조 변경",
+    "date": {
+      "year": 2025,
+      "month": 12,
+      "day": 20
+    },
+    "author": "Admin",
+    "contents": "진행중"
   },
   {
     "id": "2",
     "title": "연구실 홈페이지 리뉴얼",
-    "date": { "year": 2025, "month": 12, "day": 15 },
+    "date": {
+      "year": 2025,
+      "month": 12,
+      "day": 15
+    },
     "author": "Admin",
-    "contents": "-"
+    "contents": "진행중"
   },
   {
-    "id": "3",
+    "id": "1",
     "title": "최경훈, 전현식 학위논문 발표 진행",
-    "date": { "year": 2025, "month": 12, "day": 4 },
+    "date": {
+      "year": 2025,
+      "month": 12,
+      "day": 4
+    },
     "author": "Admin",
-    "contents": "-"
+    "contents": "졸업을 축하합니다."
   }
 ]

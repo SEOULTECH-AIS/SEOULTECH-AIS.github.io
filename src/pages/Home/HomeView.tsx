@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { ArrowRight, Calendar, Brain, Network, Cpu, ScanEye, Microscope } from 'lucide-react';
+import { ArrowRight, Calendar, Brain, Network, Cpu, ScanEye, Microscope, Map, Type, Zap, Settings } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import CityDetectionBackground from '@/pages/Home/CityDetectionBackground';
 import { ResearchTopic, ResearchIconName } from '@/types/Research';
@@ -11,7 +11,11 @@ const IconMap: Record<ResearchIconName, React.ElementType> = {
     Network,
     Cpu,
     ScanEye,
-    Microscope
+    Microscope,
+    Map,
+    Type,
+    Zap,
+    Settings
 };
 
 interface HomeViewProps {
@@ -75,8 +79,8 @@ const HomeView: React.FC<HomeViewProps> = ({ researchItems, content }) => {
                 </div>
 
                 {/* Scroll Indicator */}
-                <div 
-                    className="scroll-indicator cursor-pointer pointer-events-auto" 
+                <div
+                    className="scroll-indicator cursor-pointer pointer-events-auto"
                     onClick={scrollToResearch}
                 >
                     <div className="scroll-mouse">
@@ -105,8 +109,8 @@ const HomeView: React.FC<HomeViewProps> = ({ researchItems, content }) => {
                                 </div>
                                 <h3 className="research-card-title">{topic.title}</h3>
                                 <div className="research-card-desc">
-                                    {topic.description.map(d => 
-                                        d.title === 'Overview' ? 
+                                    {topic.shortDescription ? topic.shortDescription : topic.description.map(d =>
+                                        d.title === 'Overview' ?
                                             (typeof d.contents === 'string' ? d.contents : '') : ''
                                     ).join('').substring(0, 150) + '...'}
                                 </div>
@@ -121,7 +125,7 @@ const HomeView: React.FC<HomeViewProps> = ({ researchItems, content }) => {
                 <div className="cta-container">
                     <h2 className="cta-title">{content.cta.title}</h2>
                     <div className="cta-description">
-                         {renderContents(content.cta.contents)}
+                        {renderContents(content.cta.contents)}
                     </div>
                     <Link to="/contact" className="cta-button group">
                         {content.cta.buttonLabel}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Mail, MapPin, Phone, Users, Brain, Coffee } from 'lucide-react';
 import { ContactInfo } from '@/types/Base';
 import './Contact.css';
@@ -8,6 +8,10 @@ interface ContactViewProps {
 }
 
 const ContactView: React.FC<ContactViewProps> = ({ contactData }) => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="contact-page">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -93,7 +97,7 @@ const ContactView: React.FC<ContactViewProps> = ({ contactData }) => {
                                 </div>
                                 <h2 className="contact-card-title">{contactData.contactInstruction.title}</h2>
                             </div>
-                            <p 
+                            <p
                                 className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm mb-6 pl-12 transition-colors duration-300"
                                 dangerouslySetInnerHTML={{ __html: contactData.contactInstruction.description }}
                             />

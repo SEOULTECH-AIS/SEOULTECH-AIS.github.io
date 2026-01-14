@@ -1,7 +1,7 @@
 import React from 'react';
 import { Description } from '@/types/Base';
 import { ResearchTopic, ResearchIconName } from '@/types/Research';
-import { Brain, Network, Cpu, ScanEye, Microscope } from 'lucide-react';
+import { Brain, Network, Cpu, ScanEye, Microscope, Map, Type, Zap, Settings } from 'lucide-react';
 import SmoothTabs from '@/components/SmoothTabs';
 import './Research.css';
 
@@ -10,7 +10,11 @@ const IconMap: Record<ResearchIconName, React.ElementType> = {
     Network,
     Cpu,
     ScanEye,
-    Microscope
+    Microscope,
+    Map,
+    Type,
+    Zap,
+    Settings
 };
 
 interface ResearchViewProps {
@@ -20,14 +24,40 @@ interface ResearchViewProps {
     activeItem: ResearchTopic;
 }
 
+const logoImages = import.meta.glob('/src/assets/logo/*.{png,jpg,jpeg,webp,svg}', { eager: true });
+
+const getImageUrl = (path?: string) => {
+    if (!path) return '';
+    // If it's already a full URL or data URI, return as is
+    if (path.startsWith('http') || path.startsWith('data:')) return path;
+
+    // Normalize path to absolute for lookup
+    // Assuming input might be "src/assets/logo/AIS_logo.png" or "/src/assets/logo/AIS_logo.png"
+    const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+
+    // Look up in glob results
+    const imageModule = logoImages[normalizedPath];
+    if (imageModule) {
+        return (imageModule as any).default;
+    }
+
+    // Fallback try to find partially
+    const foundKey = Object.keys(logoImages).find(k => k.endsWith(path) || path.endsWith(k));
+    if (foundKey) {
+        return (logoImages[foundKey] as any).default;
+    }
+
+    return path; // Return original if not found (might be public assets)
+};
+
 // Recursive component to render structured research description
 const DescriptionRenderer = ({ content, level = 0 }: { content: Description; level?: number }) => {
     return (
         <div className={`description-block ${level > 0 ? 'description-block-nested' : ''}`}>
             {content.title && (
                 <h3 className={
-                    level === 0 ? 'description-title-l0' : 
-                    level === 1 ? 'description-title-l1' : 'description-title-base'
+                    level === 0 ? 'description-title-l0' :
+                        level === 1 ? 'description-title-l1' : 'description-title-base'
                 }>
                     {content.title}
                 </h3>
@@ -36,10 +66,10 @@ const DescriptionRenderer = ({ content, level = 0 }: { content: Description; lev
             {/* Image Rendering - Always before text contents */}
             {content.imageUrl && (
                 <div className="description-image-container">
-                    <img 
-                        src={content.imageUrl} 
-                        alt={content.imageAlt || content.title || 'Research illustration'} 
-                        className="description-image" 
+                    <img
+                        src={getImageUrl(content.imageUrl)}
+                        alt={content.imageAlt || content.title || 'Research illustration'}
+                        className="description-image"
                     />
                     {content.imageAlt && (
                         <p className="description-image-caption">
@@ -48,7 +78,7 @@ const DescriptionRenderer = ({ content, level = 0 }: { content: Description; lev
                     )}
                 </div>
             )}
-            
+
             {/* Case 1: content.contents is a string (Paragraph) */}
             {content.contents && typeof content.contents === 'string' && (
                 <p className="description-text">
@@ -93,12 +123,15 @@ const ResearchView: React.FC<ResearchViewProps> = ({ tabs, activeId, onTabChange
                 </div>
 
                 {/* Smooth Tabs */}
-                <SmoothTabs
-                    tabs={tabs}
-                    activeId={activeId}
-                    onChange={onTabChange}
-                    layoutIdPrefix="research"
-                />
+                <div className="research-tabs-wrapper">
+                    <SmoothTabs
+                        tabs={tabs}
+                        activeId={activeId}
+                        onChange={onTabChange}
+                        layoutIdPrefix="research"
+                        className="research-tabs-override"
+                    />
+                </div>
 
                 {/* Content Display */}
                 <div className="research-content-card">
@@ -107,7 +140,7 @@ const ResearchView: React.FC<ResearchViewProps> = ({ tabs, activeId, onTabChange
                         <div className="research-hero-image-container">
                             <img
                                 key={activeItem.imageUrl} // Key change forces animation re-render
-                                src={activeItem.imageUrl}
+                                src={getImageUrl(activeItem.imageUrl)}
                                 alt={activeItem.title}
                                 className="research-hero-image"
                             />

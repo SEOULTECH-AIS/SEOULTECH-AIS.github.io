@@ -16,7 +16,7 @@ export const navigationData: NavItem[] = [
         path: '/research',
         iconName: 'BookOpen',
         dropdown: [
-            { name: 'Deep Learning / Deep RL', hash: '20000003952' },
+            { name: 'Research Area 1', hash: 'research-area-1' },
             { name: 'Research Area 2', hash: 'research-area-2' },
             { name: 'Research Area 3', hash: 'research-area-3' },
             { name: 'Research Area 4', hash: 'research-area-4' },
@@ -55,6 +55,14 @@ export const navigationData: NavItem[] = [
             { name: 'Domestic Conference', hash: 'domestic-conference' }
         ]
     },
-    { name: 'Board', path: '/board', iconName: 'Layout' },
+    {
+        name: 'Board',
+        path: '/board',
+        iconName: 'Layout',
+        dropdown: [
+            { name: 'News', hash: 'news' },
+            { name: 'Research Equipment', hash: 'equipment' }
+        ]
+    },
     { name: 'Contact', path: '/contact', iconName: 'Mail' }
 ];

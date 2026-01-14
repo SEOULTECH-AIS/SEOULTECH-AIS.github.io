@@ -9,13 +9,12 @@ const researchData = researchDataJson as ResearchTopic[];
 const content = homeData as unknown as HomeContent;
 
 const HomeContainer = () => {
-    // Filter research data to exclude equipment and limit to first 4 areas
+    // Filter research data to exclude equipment. The limit is removed.
     const displayResearch = researchData
-        .filter(item => item.title !== 'Research Equipment')
-        .slice(0, 4);
+        .filter(item => item.title !== 'Research Equipment');
 
     return (
-        <HomeView 
+        <HomeView
             researchItems={displayResearch}
             content={content}
         />

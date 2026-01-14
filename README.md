@@ -1,7 +1,7 @@
 <h1 align="center">AIS Lab Homepage</h1>
 
 <p align="center">
-  <img src="src/assets/logo/Logo1.png" alt="Header Logo" width="400">
+  <img src="src/assets/logo/Logo1.png" alt="Header Logo">
 </p>
 
 AIS (Autonomous Intelligent Systems) Lab 공식 홈페이지 프로젝트.
@@ -66,5 +66,5 @@ GitHub Actions를 통한 완전 자동화 배포 시스템.
 - [📖 홈페이지 관리 매뉴얼 바로가기](./manual/README.md)
 
 <p align="center">
-  <img src="src/assets/logo/AIS_logo.png" alt="Footer Logo" width="100">
+  <img src="src/assets/logo/AIS_logo.png" alt="Footer Logo">
 </p>
