@@ -1,5 +1,43 @@
 [
     {
+        "id": "jeon2026enhancing",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2026",
+                    1,
+                    9
+                ]
+            ]
+        },
+        "author": "Jeon, Hyun-Sik, Kang, Seong-Hui, Ha, Jong-Eun",
+        "citation-key": "jeon2026enhancing",
+        "container-title": "Applied Sciences",
+        "DOI": "10.3390/app16020652",
+        "ISSN": "2076-3417",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    "2026",
+                    1
+                ]
+            ]
+        },
+        "license": "http://creativecommons.org/licenses/by/3.0/",
+        "page": "652",
+        "publisher": "Multidisciplinary Digital Publishing Institute",
+        "source": "www.mdpi.com",
+        "title": "Enhancing SeeGround with Relational Depth Text for 3D Visual Grounding",
+        "type": "article-journal",
+        "URL": "https://www.mdpi.com/2076-3417/16/2/652",
+        "volume": "16",
+        "category": "international-journal",
+        "year": 2026,
+        "venue": "Applied Sciences",
+        "doi": "10.3390/app16020652"
+    },
+    {
         "id": "choi2025adaptive",
         "accessed": {
             "date-parts": [
@@ -172,7 +210,7 @@
             ]
         },
         "license": "http://creativecommons.org/licenses/by/3.0/",
-        "publisher": "publisher",
+        "publisher": "Multidisciplinary Digital Publishing Institute",
         "source": "www.mdpi.com",
         "title": "End-to-End Camera Pose Estimation with Camera Ray Token",
         "type": "article-journal",
@@ -362,8 +400,46 @@
                 ]
             ]
         },
-        "author": "Wang, Yao, Ha, Jong-Eun",
+        "author": "Wang, Yao, Ha, Jong-Eun, Wang, Yao, Ha, Jong-Eun",
         "citation-key": "wang2024improved",
+        "container-title": "Remote Sensing",
+        "DOI": "10.3390/rs16020353",
+        "ISSN": "2072-4292",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    "2024",
+                    1,
+                    16
+                ]
+            ]
+        },
+        "license": "http://creativecommons.org/licenses/by/3.0/",
+        "publisher": "Multidisciplinary Digital Publishing Institute",
+        "source": "www.mdpi.com",
+        "title": "Improved Object Detection with Content and Position Separation in Transformer",
+        "type": "article-journal",
+        "URL": "https://www.mdpi.com/2072-4292/16/2/353",
+        "volume": "16",
+        "category": "international-journal",
+        "year": 2024,
+        "venue": "Remote Sensing",
+        "doi": "10.3390/rs16020353"
+    },
+    {
+        "id": "wang2024improveda",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2026",
+                    1,
+                    7
+                ]
+            ]
+        },
+        "author": "Wang, Yao, Ha, Jong-Eun",
+        "citation-key": "wang2024improveda",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2024.3458461",
         "ISSN": "2169-3536",
@@ -384,44 +460,6 @@
         "year": 2024,
         "venue": "IEEE Access",
         "doi": "10.1109/ACCESS.2024.3458461"
-    },
-    {
-        "id": "wang2024improveda",
-        "accessed": {
-            "date-parts": [
-                [
-                    "2026",
-                    1,
-                    7
-                ]
-            ]
-        },
-        "author": "Wang, Yao, Ha, Jong-Eun, Wang, Yao, Ha, Jong-Eun",
-        "citation-key": "wang2024improveda",
-        "container-title": "Remote Sensing",
-        "DOI": "10.3390/rs16020353",
-        "ISSN": "2072-4292",
-        "issue": "2",
-        "issued": {
-            "date-parts": [
-                [
-                    "2024",
-                    1,
-                    16
-                ]
-            ]
-        },
-        "license": "http://creativecommons.org/licenses/by/3.0/",
-        "publisher": "publisher",
-        "source": "www.mdpi.com",
-        "title": "Improved Object Detection with Content and Position Separation in Transformer",
-        "type": "article-journal",
-        "URL": "https://www.mdpi.com/2072-4292/16/2/353",
-        "volume": "16",
-        "category": "international-journal",
-        "year": 2024,
-        "venue": "Remote Sensing",
-        "doi": "10.3390/rs16020353"
     },
     {
         "id": "gimyumin2024gpureul",
@@ -1477,7 +1515,7 @@
         "doi": "10.5302/J.ICROS.2020.20.0090"
     },
     {
-        "id": "coegyeonghun2020ejia",
+        "id": "coegyeonghun2020eji",
         "accessed": {
             "date-parts": [
                 [
@@ -1488,7 +1526,7 @@
             ]
         },
         "author": "최경훈, 하종은",
-        "citation-key": "coegyeonghun2020ejia",
+        "citation-key": "coegyeonghun2020eji",
         "container-title": "제어로봇시스템학회 논문지",
         "DOI": "10.5302/J.ICROS.2020.20.0119",
         "ISSN": "1976-5622",
@@ -3861,120 +3899,6 @@
         "venue": "2011 11th International Conference on Control, Automation and Systems"
     },
     {
-        "id": "ha2010foreground",
-        "accessed": {
-            "date-parts": [
-                [
-                    "2025",
-                    10,
-                    5
-                ]
-            ]
-        },
-        "author": "Ha, Jong-Eun, Lee, Wangheon",
-        "citation-key": "ha2010foreground",
-        "container-title": "Optical Engineering",
-        "container-title-short": "OE",
-        "DOI": "10.1117/1.3374043",
-        "ISSN": "0091-3286, 1560-2303",
-        "issue": "4",
-        "issued": {
-            "date-parts": [
-                [
-                    "2010",
-                    4
-                ]
-            ]
-        },
-        "page": "047201",
-        "publisher": "SPIE",
-        "source": "www.spiedigitallibrary.org",
-        "title": "Foreground objects detection using multiple difference images",
-        "type": "article-journal",
-        "URL": "https://www.spiedigitallibrary.org/journals/optical-engineering/volume-49/issue-4/047201/Foreground-objects-detection-using-multiple-difference-images/10.1117/1.3374043.full",
-        "volume": "49",
-        "category": "international-journal",
-        "year": 2010,
-        "venue": "Optical Engineering",
-        "doi": "10.1117/1.3374043"
-    },
-    {
-        "id": "kang2010specimen",
-        "accessed": {
-            "date-parts": [
-                [
-                    "2025",
-                    10,
-                    5
-                ]
-            ]
-        },
-        "author": "Kang, Dong-Joong, Park, Jun-Hyub, Shin, Myung-Soo, Ha, Jong-Eun, Lee, Hak-Joo",
-        "citation-key": "kang2010specimen",
-        "container-title": "Journal of Micromechanics and Microengineering",
-        "container-title-short": "J. Micromech. Microeng.",
-        "DOI": "10.1088/0960-1317/20/8/085001",
-        "ISSN": "0960-1317",
-        "issue": "8",
-        "issued": {
-            "date-parts": [
-                [
-                    "2010",
-                    6
-                ]
-            ]
-        },
-        "page": "085001",
-        "source": "Institute of Physics",
-        "title": "Specimen alignment in an axial tensile test of thin films using direct imaging and its influence on the mechanical properties of BeCu",
-        "type": "article-journal",
-        "URL": "https://doi.org/10.1088/0960-1317/20/8/085001",
-        "volume": "20",
-        "category": "international-journal",
-        "year": 2010,
-        "venue": "Journal of Micromechanics and Microengineering",
-        "doi": "10.1088/0960-1317/20/8/085001"
-    },
-    {
-        "id": "park2010improvement",
-        "accessed": {
-            "date-parts": [
-                [
-                    "2025",
-                    10,
-                    5
-                ]
-            ]
-        },
-        "author": "Park, Jun-Hyub, Shin, Myung-Soo, Kang, Dong-Joong, Lim, Sung-Jo, Ha, Jong-Eun",
-        "citation-key": "park2010improvement",
-        "container-title": "International Journal of Modern Physics B",
-        "container-title-short": "Int. J. Mod. Phys. B",
-        "DOI": "10.1142/S021797921006615X",
-        "ISSN": "0217-9792",
-        "issue": "15n16",
-        "issued": {
-            "date-parts": [
-                [
-                    "2010",
-                    6,
-                    30
-                ]
-            ]
-        },
-        "page": "3101–3106",
-        "publisher": "World Scientific Publishing Co.",
-        "source": "worldscientific.com (Atypon)",
-        "title": "Improvement of measurement accuracy of strain of thin film by ccd camera with a template matching method using the 2nd-order polynomial interpolation",
-        "type": "article-journal",
-        "URL": "https://www.worldscientific.com/doi/10.1142/S021797921006615X",
-        "volume": "24",
-        "category": "international-journal",
-        "year": 2010,
-        "venue": "International Journal of Modern Physics B",
-        "doi": "10.1142/S021797921006615X"
-    },
-    {
         "id": "choi2010easy",
         "accessed": {
             "date-parts": [
@@ -4095,119 +4019,6 @@
         "venue": "제어로봇시스템학회 논문지"
     },
     {
-        "id": "ha2009automatic",
-        "accessed": {
-            "date-parts": [
-                [
-                    "2025",
-                    10,
-                    5
-                ]
-            ]
-        },
-        "author": "Ha, Jong-Eun",
-        "citation-key": "ha2009automatic",
-        "container-title": "Optical Engineering",
-        "container-title-short": "OE",
-        "DOI": "10.1117/1.3156053",
-        "ISSN": "0091-3286, 1560-2303",
-        "issue": "6",
-        "issued": {
-            "date-parts": [
-                [
-                    "2009",
-                    6
-                ]
-            ]
-        },
-        "page": "067205",
-        "publisher": "SPIE",
-        "source": "www.spiedigitallibrary.org",
-        "title": "Automatic detection of chessboard and its applications",
-        "type": "article-journal",
-        "URL": "https://www.spiedigitallibrary.org/journals/optical-engineering/volume-48/issue-6/067205/Automatic-detection-of-chessboard-and-its-applications/10.1117/1.3156053.full",
-        "volume": "48",
-        "category": "international-journal",
-        "year": 2009,
-        "venue": "Optical Engineering",
-        "doi": "10.1117/1.3156053"
-    },
-    {
-        "id": "kang2009detection",
-        "accessed": {
-            "date-parts": [
-                [
-                    "2025",
-                    10,
-                    5
-                ]
-            ]
-        },
-        "author": "Kang, Dong-Joong, Lim, Sung-Jo, Ha, Jong-Eun, Jeong, Mun-Ho",
-        "citation-key": "kang2009detection",
-        "container-title": "Pattern Recognition Letters",
-        "container-title-short": "Pattern Recognition Letters",
-        "DOI": "10.1016/j.patrec.2008.11.011",
-        "ISSN": "0167-8655",
-        "issue": "5",
-        "issued": {
-            "date-parts": [
-                [
-                    "2009",
-                    4,
-                    1
-                ]
-            ]
-        },
-        "page": "486–493",
-        "source": "ScienceDirect",
-        "title": "A detection cell using multiple points of a rotating triangle to find local planar regions from stereo depth data",
-        "type": "article-journal",
-        "URL": "https://www.sciencedirect.com/science/article/pii/S0167865508003528",
-        "volume": "30",
-        "category": "international-journal",
-        "year": 2009,
-        "venue": "Pattern Recognition Letters",
-        "doi": "10.1016/j.patrec.2008.11.011"
-    },
-    {
-        "id": "park2009easy",
-        "accessed": {
-            "date-parts": [
-                [
-                    "2025",
-                    10,
-                    5
-                ]
-            ]
-        },
-        "author": "Park, Jun-Hyub, Kang, Dong-Joong, Shin, Myung-Soo, Lim, Sung-Jo, Yu, Son-Cheol, Lee, Kwang-Soo, Ha, Jong-Eun, Choa, Sung-Hoon",
-        "citation-key": "park2009easy",
-        "container-title": "Transactions of Nonferrous Metals Society of China",
-        "container-title-short": "Transactions of Nonferrous Metals Society of China",
-        "DOI": "10.1016/S1003-6326(10)60278-6",
-        "ISSN": "1003-6326",
-        "issued": {
-            "date-parts": [
-                [
-                    "2009",
-                    9,
-                    1
-                ]
-            ]
-        },
-        "page": "s243-s249",
-        "source": "ScienceDirect",
-        "title": "Easy calibration method of vision system for in-situ measurement of strain of thin films",
-        "type": "article-journal",
-        "URL": "https://www.sciencedirect.com/science/article/pii/S1003632610602786",
-        "volume": "19",
-        "category": "international-journal",
-        "year": 2009,
-        "venue": "Transactions of Nonferrous Metals Society of China",
-        "doi": "10.1016/S1003-6326(10)60278-6"
-    },
-    {
         "id": "cho2009visual",
         "author": "Cho, Y. T., Ha, J. E.",
         "citation-key": "cho2009visual",
@@ -4242,77 +4053,6 @@
         "category": "domestic-conference",
         "year": 2009,
         "venue": "제 4 회 한국로봇 공학회 하계종합 학술대회 논문집"
-    },
-    {
-        "id": "ha2008new",
-        "accessed": {
-            "date-parts": [
-                [
-                    "2025",
-                    10,
-                    5
-                ]
-            ]
-        },
-        "author": "Ha, Jong-Eun, Park, Jun-Hyub, Kang, Dong-Joong",
-        "citation-key": "ha2008new",
-        "container-title": "Journal of Physics D: Applied Physics",
-        "container-title-short": "J. Phys. D: Appl. Phys.",
-        "DOI": "10.1088/0022-3727/41/17/175406",
-        "ISSN": "0022-3727",
-        "issue": "17",
-        "issued": {
-            "date-parts": [
-                [
-                    "2008",
-                    8
-                ]
-            ]
-        },
-        "page": "175406",
-        "source": "Institute of Physics",
-        "title": "New strain measurement method at axial tensile test of thin films through direct imaging",
-        "type": "article-journal",
-        "URL": "https://doi.org/10.1088/0022-3727/41/17/175406",
-        "volume": "41",
-        "category": "international-journal",
-        "year": 2008,
-        "venue": "Journal of Physics D: Applied Physics",
-        "doi": "10.1088/0022-3727/41/17/175406"
-    },
-    {
-        "id": "kang2008detection",
-        "accessed": {
-            "date-parts": [
-                [
-                    "2025",
-                    10,
-                    5
-                ]
-            ]
-        },
-        "author": "Kang, Dong-Joong, Ha, Jong-Eun, Jeong, Mun-Ho",
-        "citation-key": "kang2008detection",
-        "container-title": "International Journal of Control Automation and Systems",
-        "ISSN": "1598-6446",
-        "issue": "5",
-        "issued": {
-            "date-parts": [
-                [
-                    "2008",
-                    10
-                ]
-            ]
-        },
-        "page": "746–754",
-        "source": "www.dbpia.co.kr",
-        "title": "Detection of Calibration Patterns for Camera Calibration with Irregular Lighting and Complicated Backgrounds",
-        "type": "article-journal",
-        "URL": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01327508",
-        "volume": "6",
-        "category": "international-journal",
-        "year": 2008,
-        "venue": "International Journal of Control Automation and Systems"
     },
     {
         "id": "ha2008retrieval",
@@ -4384,44 +4124,6 @@
         "category": "domestic-journal",
         "year": 2007,
         "venue": "한국자동차공학회 춘 추계 학술대회 논문집"
-    },
-    {
-        "id": "ha2007automatic",
-        "accessed": {
-            "date-parts": [
-                [
-                    "2025",
-                    10,
-                    5
-                ]
-            ]
-        },
-        "author": "Ha, Jong-Eun",
-        "citation-key": "ha2007automatic",
-        "container-title": "Optical Engineering",
-        "container-title-short": "OE",
-        "DOI": "10.1117/1.2789620",
-        "ISSN": "0091-3286, 1560-2303",
-        "issue": "10",
-        "issued": {
-            "date-parts": [
-                [
-                    "2007",
-                    10
-                ]
-            ]
-        },
-        "page": "107203",
-        "publisher": "SPIE",
-        "source": "www.spiedigitallibrary.org",
-        "title": "Automatic detection of calibration markers on a chessboard",
-        "type": "article-journal",
-        "URL": "https://www.spiedigitallibrary.org/journals/optical-engineering/volume-46/issue-10/107203/Automatic-detection-of-calibration-markers-on-a-chessboard/10.1117/1.2789620.full",
-        "volume": "46",
-        "category": "international-journal",
-        "year": 2007,
-        "venue": "Optical Engineering",
-        "doi": "10.1117/1.2789620"
     },
     {
         "id": "ha2007imagebased",
