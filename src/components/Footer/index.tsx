@@ -47,6 +47,13 @@ const Footer = () => {
                             <span>
                                 &copy; {new Date().getFullYear()} AIS Lab. All rights reserved.
                             </span>
+                            {/* Hidden Visitor Counter (Tracking Pixel) */}
+                            <img
+                                src="https://hits.sh/seoultech-ais.github.io.svg?view=today-total&style=flat-square&label=Visitors&color=007ec6"
+                                alt="Visitor Count"
+                                className="hidden"
+                                aria-hidden="true"
+                            />
                         </div>
                     </div>
 

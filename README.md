@@ -65,6 +65,12 @@ GitHub Actions를 통한 완전 자동화 배포 시스템.
 
 - [📖 홈페이지 관리 매뉴얼 바로가기](./manual/README.md)
 
+### 방문자 통계 (Admin Only)
+[![Hits](https://hits.sh/seoultech-ais.github.io.svg?view=today-total&style=flat-square&label=Visitors&color=007ec6)](https://hits.sh/seoultech-ais.github.io/)
+*= Today/Total*
+
+*위 배지를 클릭하면 상세 통계 페이지로 이동.*
+
 <p align="center">
   <img src="src/assets/logo/AIS_logo.png" alt="Footer Logo">
 </p>
