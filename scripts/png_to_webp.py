@@ -4,7 +4,7 @@ from PIL import Image
 # constant
 # _img_dir = "src/assets/people/students"
 # _img_dir = "src/assets/people/professor"
-_img_dir = "src/assets/people"
+_img_dir = "src/assets/Research_image"
 _img_quality = 100
 
 # code

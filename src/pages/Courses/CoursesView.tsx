@@ -5,8 +5,8 @@ import SmoothTabs, { TabItem } from '@/components/SmoothTabs/index';
 import './Courses.css';
 
 // Import images
-import capstone1 from '@/assets/Research_image/capstone_1.png';
-import capstone2 from '@/assets/Research_image/capstone_2.png';
+import capstone1 from '@/assets/Research_image/capstone_1.webp';
+import capstone2 from '@/assets/Research_image/capstone_2.webp';
 
 interface CoursesViewProps {
     activeTab: CourseCategory;

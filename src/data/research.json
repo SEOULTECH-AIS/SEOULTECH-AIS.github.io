@@ -22,7 +22,7 @@
                 "contents": "Robust perception relies on the precise integration of diverse sensor data. We possess core technologies in automatic extrinsic calibration for multi-modal sensor setups, including Camera-LiDAR systems. By utilizing geometric constraints such as vertical planes and point-line correspondences, we ensure sub-pixel accuracy in sensor alignment. This foundational work supports our advanced research in Semantic Scene Completion (SSC) and 3D Object Detection, enabling systems to infer and reconstruct occluded regions by fusing 2D semantic features with 3D sparse depth data."
             }
         ],
-        "imageUrl": "src/assets/Research_image/Gemini_Research_Areas_1_1.png"
+        "imageUrl": "src/assets/Research_image/Gemini_Research_Areas_1_1.webp"
     },
     {
         "id": "research-area-2",
@@ -51,7 +51,7 @@
                 "contents": "We leverage Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs) to generate high-fidelity background models. By synthesizing clean background images from cluttered scenes, our methods significantly improve the performance of foreground detection algorithms, enabling them to handle abrupt lighting changes and camouflaged objects more effectively than classical statistical models."
             }
         ],
-        "imageUrl": "src/assets/Research_image/Gemini_Research_Areas_1_2.png"
+        "imageUrl": "src/assets/Research_image/Gemini_Research_Areas_1_2.webp"
     },
     {
         "id": "research-area-3",
@@ -72,7 +72,7 @@
                 "contents": "Moving beyond fixed-size input constraints, we research \"Patch-based Transformer\" approaches where text images are sliced into vertical patches of varying scales. This method allows the network to robustly process text with extreme aspect ratios and perspective distortions, making it highly effective for handling varying character lengths and irregular text distributions in natural scenes."
             }
         ],
-        "imageUrl": "src/assets/Research_image/Gemini_Research_Areas_1_3.png"
+        "imageUrl": "src/assets/Research_image/Gemini_Research_Areas_1_3.webp"
     },
     {
         "id": "research-area-4",
@@ -93,7 +93,7 @@
                 "contents": "To overcome the dependency on pixel-perfect ground truth data, we research \"Weakly Supervised\" RL frameworks. Our latest work introduces methods to train edge detection agents using only weak labels, drastically reducing annotation costs while maintaining high precision. Furthermore, we extend RL to higher-level tasks, such as Policy-Based Object Detection, where we treat object localization as a sequential decision-making process, enabling the model to learn efficient search strategies in complex visual environments."
             }
         ],
-        "imageUrl": "src/assets/Research_image/Gemini_Research_Areas_1_4.png"
+        "imageUrl": "src/assets/Research_image/Gemini_Research_Areas_1_4.webp"
     },
     {
         "id": "research-area-5",
@@ -118,6 +118,6 @@
                 "contents": "Our lab possesses extensive expertise in developing robust algorithms for verifying the geometry of diverse industrial parts. We have solved practical engineering challenges, including detecting protrusions in coils, inspecting diamond wheels via edge extraction, and verifying screw heads (Torx) using morphological processing. We also specialize in robust pattern recognition, such as decoding Data Matrix codes under severe perspective distortion."
             }
         ],
-        "imageUrl": "src/assets/Research_image/Gemini_Research_Areas_1_5.png"
+        "imageUrl": "src/assets/Research_image/Gemini_Research_Areas_1_5.webp"
     }
 ]
