@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
 import { BoardItem } from '@/types/Board';
 import { Description } from '@/types/Base';
 import { MessageSquare, User, Calendar, ChevronDown, ChevronUp, Microscope, Server, Cpu, Database, HardDrive, Layout } from 'lucide-react';
@@ -9,39 +8,19 @@ import './Board.css';
 interface BoardViewProps {
     data: BoardItem[];
     equipmentData: Description[];
+    activeTab: 'NEWS' | 'EQUIPMENT';
+    onTabChange: (id: 'NEWS' | 'EQUIPMENT') => void;
 }
 
 const formatDate = (date: { year: number; month: number; day?: number }) => {
     return `${date.year}-${String(date.month).padStart(2, '0')}-${String(date.day || 1).padStart(2, '0')}`;
 };
 
-const BoardView: React.FC<BoardViewProps> = ({ data, equipmentData }) => {
+const BoardView: React.FC<BoardViewProps> = ({ data, equipmentData, activeTab, onTabChange }) => {
     const [expandedId, setExpandedId] = useState<string | null>(null);
-    const location = useLocation();
-
-    // Check query param for initial tab
-    const getInitialTab = () => {
-        const params = new URLSearchParams(location.search);
-        const area = params.get('area');
-        return area === 'equipment' ? 'EQUIPMENT' : 'NEWS';
-    };
-
-    const [activeTab, setActiveTab] = useState<'NEWS' | 'EQUIPMENT'>(getInitialTab);
-
-    // Sync tab with URL changes
-    useEffect(() => {
-        const params = new URLSearchParams(location.search);
-        const area = params.get('area');
-        if (area === 'equipment') setActiveTab('EQUIPMENT');
-        else if (area === 'news') setActiveTab('NEWS');
-    }, [location.search]);
 
     const toggleExpand = (id: string) => {
         setExpandedId(expandedId === id ? null : id);
-    };
-
-    const handleTabChange = (id: 'NEWS' | 'EQUIPMENT') => {
-        setActiveTab(id);
     };
 
     const renderContents = (contents: any) => {
@@ -77,7 +56,7 @@ const BoardView: React.FC<BoardViewProps> = ({ data, equipmentData }) => {
                         { id: 'EQUIPMENT', label: 'Research Equipment', icon: <Microscope size={16} /> }
                     ]}
                     activeId={activeTab}
-                    onChange={(id) => handleTabChange(id as 'NEWS' | 'EQUIPMENT')}
+                    onChange={(id) => onTabChange(id as 'NEWS' | 'EQUIPMENT')}
                     layoutIdPrefix="board"
                 />
 

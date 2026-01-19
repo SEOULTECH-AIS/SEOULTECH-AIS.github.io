@@ -8,9 +8,9 @@ interface ContactViewProps {
 }
 
 const ContactView: React.FC<ContactViewProps> = ({ contactData }) => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+    // useEffect(() => {
+    //     window.scrollTo(0, 0);
+    // }, []);
 
     return (
         <div className="contact-page">

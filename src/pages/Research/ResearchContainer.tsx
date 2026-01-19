@@ -26,8 +26,6 @@ const ResearchContainer = () => {
                 setActiveId(researchData[0].id);
             }
         }
-
-        window.scrollTo(0, 0);
     }, [location]);
 
     const activeItem = researchData.find(r => r.id === activeId) || researchData[0];

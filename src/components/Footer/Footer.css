@@ -1,65 +1,59 @@
+/* Footer Layout */
 .footer-root {
-  @apply bg-card border-t border-border py-4 transition-colors duration-300;
+  @apply bg-card border-t border-border py-8 transition-colors duration-300;
 }
 
 .footer-container {
-  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  @apply w-full max-w-[1800px] mx-auto px-8 md:px-16 lg:px-32;
 }
 
 .footer-inner {
-  @apply flex flex-col md:flex-row justify-between items-center gap-4 text-muted-foreground;
+  @apply flex flex-col md:flex-row items-center gap-10 text-muted-foreground w-full;
 }
 
-/* Left Section */
-.footer-left {
-  @apply text-left flex flex-col items-start;
+/* Left Section: AIS Logo */
+.footer-left-logo {
+  @apply flex items-center justify-center md:justify-start;
+  flex: 1 0 160px;
+  /* Grow: 1, Shrink: 0, Basis: 160px (Prevents shrinking) */
+}
+
+/* Center Section: Info Content */
+.footer-center-info {
+  @apply flex flex-col items-center text-center px-4 w-auto;
 }
 
 .footer-title {
-  @apply text-foreground font-bold text-lg mb-1;
+  @apply text-foreground font-bold text-xl mb-2;
 }
 
 .footer-info-wrapper {
-  @apply flex flex-wrap items-center gap-x-6 gap-y-1 text-sm;
-}
-
-.footer-contact-group {
-  @apply flex items-center space-x-4;
+  @apply flex flex-wrap justify-center items-center gap-x-2 gap-y-1 text-sm;
+  /* Reduced gap-x further as requested */
 }
 
 .footer-contact-item {
-  @apply flex items-center space-x-1.5;
+  @apply flex items-center space-x-2;
 }
 
-.footer-divider {
-  @apply hidden sm:block h-3 w-px bg-border;
-}
-
-.footer-legal-group {
-  @apply flex items-center space-x-3 text-muted-foreground;
+.footer-divider-hidden {
+  @apply hidden xl:block px-1 text-border;
 }
 
 .footer-legal-link {
   @apply text-muted-foreground font-medium hover:text-primary transition-colors;
 }
 
-/* Right Section */
-.footer-right {
-  @apply flex items-center space-x-4;
+/* Right Section: SeoulTech Logo & Theme */
+.footer-right-logo {
+  @apply flex items-center justify-center md:justify-end;
+  flex: 1 0 160px;
+  /* Grow: 1, Shrink: 0, Basis: 160px */
 }
 
-.footer-theme-btn {
-  @apply p-2 rounded-full hover:bg-secondary text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-primary;
-}
 
-.footer-logo-container {
-  @apply flex items-center space-x-3 bg-white/90 p-1.5 rounded;
-}
 
 .footer-logo {
-  @apply h-8 w-auto object-contain;
-}
-
-.footer-logo-divider {
-  @apply w-px h-6 bg-slate-200;
+  @apply h-14 w-auto object-contain flex-shrink-0;
+  /* Added flex-shrink-0 to image itself just in case */
 }

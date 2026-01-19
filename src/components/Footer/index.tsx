@@ -13,70 +13,50 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="footer-inner">
 
-                    {/* Left: Content (Lab Info, Contact, Legal) */}
-                    <div className="footer-left">
-                        {/* Title */}
+                    {/* Left: AIS Lab Logo */}
+                    <div className="footer-left-logo">
+                        <img
+                            src={AISLogo}
+                            alt="AIS Lab Logo"
+                            className="footer-logo"
+                        />
+                    </div>
+
+                    {/* Center: Info Content */}
+                    <div className="footer-center-info">
                         <h3 className="footer-title">Autonomous Intelligent Systems Lab</h3>
-
-                        {/* Wrapper for Contact + Divider + Legal in one line */}
                         <div className="footer-info-wrapper">
-
-                            {/* Contact Info Group */}
-                            <div className="footer-contact-group">
-                                <div className="footer-contact-item">
-                                    <MapPin size={14} className="text-muted-foreground" />
-                                    <span>Room 702, Frontier Hall (#32)</span>
-                                </div>
-                                <div className="footer-contact-item">
-                                    <Mail size={14} className="text-muted-foreground" />
-                                    <span>jeha@seoultech.ac.kr</span>
-                                </div>
+                            <div className="footer-contact-item">
+                                <MapPin size={14} className="text-muted-foreground" />
+                                <span>Room 702, Frontier Hall (#32)</span>
                             </div>
-
-                            {/* Divider */}
-                            <div className="footer-divider"></div>
-
-                            {/* Legal Info Group */}
-                            <div className="footer-legal-group">
-                                <a
-                                    href="https://www.seoultech.ac.kr/sinfo/persnal/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="footer-legal-link"
-                                >
-                                    개인정보처리방침
-                                </a>
-                                <span className="text-border">|</span>
-                                <span>
-                                    &copy; {new Date().getFullYear()} AIS Lab. All rights reserved.
-                                </span>
+                            <div className="footer-contact-item">
+                                <Mail size={14} className="text-muted-foreground" />
+                                <span>jeha@seoultech.ac.kr</span>
                             </div>
+                            <div className="footer-divider-hidden sm:block">|</div>
+                            <a
+                                href="https://www.seoultech.ac.kr/sinfo/persnal/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="footer-legal-link"
+                            >
+                                개인정보처리방침
+                            </a>
+                            <div className="footer-divider-hidden sm:block">|</div>
+                            <span>
+                                &copy; {new Date().getFullYear()} AIS Lab. All rights reserved.
+                            </span>
                         </div>
                     </div>
 
-                    {/* Right: Theme Toggle & Logos */}
-                    <div className="footer-right">
-                        <button
-                            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                            className="footer-theme-btn"
-                            aria-label="Toggle theme"
-                        >
-                            {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
-                        </button>
-
-                        <div className="footer-logo-container">
-                            <img
-                                src={AISLogo}
-                                alt="AIS Lab Logo"
-                                className="footer-logo"
-                            />
-                            <div className="footer-logo-divider"></div>
-                            <img
-                                src={SeoulTechLogo}
-                                alt="SeoulTech Logo"
-                                className="footer-logo"
-                            />
-                        </div>
+                    {/* Right: Theme Toggle & SeoulTech Logo */}
+                    <div className="footer-right-logo">
+                        <img
+                            src={SeoulTechLogo}
+                            alt="SeoulTech Logo"
+                            className="footer-logo"
+                        />
                     </div>
                 </div>
             </div>

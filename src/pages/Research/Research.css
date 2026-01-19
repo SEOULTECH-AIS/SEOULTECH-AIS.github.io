@@ -42,8 +42,7 @@
     }
 
     .research-hero-image {
-        @apply w-full h-auto object-cover transition-transform duration-700 hover:scale-105 animate-fade-in-up;
-        max-height: 600px;
+        @apply w-full h-auto;
     }
 
     .research-content-body {

@@ -32,6 +32,9 @@ const HomeView: React.FC<HomeViewProps> = ({ researchItems, content }) => {
 
     useEffect(() => {
         const handleWheel = (e: WheelEvent) => {
+            // Check if Ctrl key is pressed (zooming usually involves Ctrl + Scroll)
+            if (e.ctrlKey) return;
+
             // Only trigger if we are at the very top and scrolling down
             if (window.scrollY < 10 && e.deltaY > 0) {
                 // Optional: Prevent default scrolling if you want to force the jump, 

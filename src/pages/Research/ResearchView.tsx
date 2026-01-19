@@ -25,6 +25,7 @@ interface ResearchViewProps {
 }
 
 const logoImages = import.meta.glob('/src/assets/logo/*.{png,jpg,jpeg,webp,svg}', { eager: true });
+const researchImages = import.meta.glob('/src/assets/Research_image/*.{png,jpg,jpeg,webp,svg}', { eager: true });
 
 const getImageUrl = (path?: string) => {
     if (!path) return '';
@@ -32,19 +33,28 @@ const getImageUrl = (path?: string) => {
     if (path.startsWith('http') || path.startsWith('data:')) return path;
 
     // Normalize path to absolute for lookup
-    // Assuming input might be "src/assets/logo/AIS_logo.png" or "/src/assets/logo/AIS_logo.png"
     const normalizedPath = path.startsWith('/') ? path : `/${path}`;
 
-    // Look up in glob results
-    const imageModule = logoImages[normalizedPath];
-    if (imageModule) {
-        return (imageModule as any).default;
+    // Look up in logo images
+    if (logoImages[normalizedPath]) {
+        return (logoImages[normalizedPath] as any).default;
     }
 
-    // Fallback try to find partially
-    const foundKey = Object.keys(logoImages).find(k => k.endsWith(path) || path.endsWith(k));
-    if (foundKey) {
-        return (logoImages[foundKey] as any).default;
+    // Look up in research images
+    if (researchImages[normalizedPath]) {
+        return (researchImages[normalizedPath] as any).default;
+    }
+
+    // Fallback try to find partially in logo images
+    const foundLogoKey = Object.keys(logoImages).find(k => k.endsWith(path) || path.endsWith(k));
+    if (foundLogoKey) {
+        return (logoImages[foundLogoKey] as any).default;
+    }
+
+    // Fallback try to find partially in research images
+    const foundResearchKey = Object.keys(researchImages).find(k => k.endsWith(path) || path.endsWith(k));
+    if (foundResearchKey) {
+        return (researchImages[foundResearchKey] as any).default;
     }
 
     return path; // Return original if not found (might be public assets)
@@ -144,6 +154,9 @@ const ResearchView: React.FC<ResearchViewProps> = ({ tabs, activeId, onTabChange
                                 alt={activeItem.title}
                                 className="research-hero-image"
                             />
+                            <p className="text-[15px] text-slate-400 dark:text-slate-500 text-right px-4 py-2 italic bg-slate-50 dark:bg-slate-900/50">
+                                The above image was generated via Google Gemini Nano Banana based on the submitted papers to facilitate understanding of the research area.
+                            </p>
                         </div>
                     )}
 
