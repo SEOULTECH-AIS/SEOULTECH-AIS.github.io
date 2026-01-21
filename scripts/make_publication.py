@@ -32,7 +32,7 @@ def __Author_parser__(authors: str | list[dict]):
                     parts.append(_family)
                 if _given:
                     parts.append(_given)
-                _parser.append(", ".join(parts))
+                _parser.append(" ".join(parts))
     return ", ".join(_parser)
 
 def __Get_data_from__(data_root: Path, pub_type: str):

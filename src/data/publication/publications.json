@@ -10,7 +10,7 @@
                 ]
             ]
         },
-        "author": "Jeon, Hyun-Sik, Kang, Seong-Hui, Ha, Jong-Eun",
+        "author": "Jeon Hyun-Sik, Kang Seong-Hui, Ha Jong-Eun",
         "citation-key": "jeon2026enhancing",
         "container-title": "Applied Sciences",
         "DOI": "10.3390/app16020652",
@@ -48,7 +48,7 @@
                 ]
             ]
         },
-        "author": "Choi, Keong-Hun, Ha, Jong-Eun",
+        "author": "Choi Keong-Hun, Ha Jong-Eun",
         "citation-key": "choi2025adaptive",
         "container-title": "Applied Sciences",
         "DOI": "10.3390/app152212158",
@@ -194,7 +194,7 @@
                 ]
             ]
         },
-        "author": "Kim, Jin-Woo, Ha, Jong-Eun, Kim, Jin-Woo, Ha, Jong-Eun",
+        "author": "Kim Jin-Woo, Ha Jong-Eun, Kim Jin-Woo, Ha Jong-Eun",
         "citation-key": "kim2025endtoend",
         "container-title": "Electronics",
         "DOI": "10.3390/electronics14234624",
@@ -232,7 +232,7 @@
                 ]
             ]
         },
-        "author": "최현성, Wang, Yao, 하종은",
+        "author": "최현성, Wang Yao, 하종은",
         "citation-key": "coehyeonseong2025noposplateul",
         "container-title": "제어로봇시스템학회 국내학술대회 논문집",
         "event-title": "2025 제40회 제어로봇시스템학회 학술대회",
@@ -332,7 +332,7 @@
                 ]
             ]
         },
-        "author": "Choi, Keong-Hun, Ha, Jong-Eun",
+        "author": "Choi Keong-Hun, Ha Jong-Eun",
         "citation-key": "choi2024object",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2024.3452728",
@@ -366,7 +366,7 @@
                 ]
             ]
         },
-        "author": "Park, Sang-Min, Ha, Jong-Eun",
+        "author": "Park Sang-Min, Ha Jong-Eun",
         "citation-key": "park2024semantic",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2024.3470754",
@@ -400,8 +400,42 @@
                 ]
             ]
         },
-        "author": "Wang, Yao, Ha, Jong-Eun, Wang, Yao, Ha, Jong-Eun",
+        "author": "Wang Yao, Ha Jong-Eun",
         "citation-key": "wang2024improved",
+        "container-title": "IEEE Access",
+        "DOI": "10.1109/ACCESS.2024.3458461",
+        "ISSN": "2169-3536",
+        "issued": {
+            "date-parts": [
+                [
+                    "2024"
+                ]
+            ]
+        },
+        "page": "129498–129510",
+        "source": "IEEE Xplore",
+        "title": "Improved DETR With Class Tokens in an Encoder",
+        "type": "article-journal",
+        "URL": "https://ieeexplore.ieee.org/abstract/document/10676965",
+        "volume": "12",
+        "category": "international-journal",
+        "year": 2024,
+        "venue": "IEEE Access",
+        "doi": "10.1109/ACCESS.2024.3458461"
+    },
+    {
+        "id": "wang2024improveda",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2026",
+                    1,
+                    7
+                ]
+            ]
+        },
+        "author": "Wang Yao, Ha Jong-Eun, Wang Yao, Ha Jong-Eun",
+        "citation-key": "wang2024improveda",
         "container-title": "Remote Sensing",
         "DOI": "10.3390/rs16020353",
         "ISSN": "2072-4292",
@@ -426,40 +460,6 @@
         "year": 2024,
         "venue": "Remote Sensing",
         "doi": "10.3390/rs16020353"
-    },
-    {
-        "id": "wang2024improveda",
-        "accessed": {
-            "date-parts": [
-                [
-                    "2026",
-                    1,
-                    7
-                ]
-            ]
-        },
-        "author": "Wang, Yao, Ha, Jong-Eun",
-        "citation-key": "wang2024improveda",
-        "container-title": "IEEE Access",
-        "DOI": "10.1109/ACCESS.2024.3458461",
-        "ISSN": "2169-3536",
-        "issued": {
-            "date-parts": [
-                [
-                    "2024"
-                ]
-            ]
-        },
-        "page": "129498–129510",
-        "source": "IEEE Xplore",
-        "title": "Improved DETR With Class Tokens in an Encoder",
-        "type": "article-journal",
-        "URL": "https://ieeexplore.ieee.org/abstract/document/10676965",
-        "volume": "12",
-        "category": "international-journal",
-        "year": 2024,
-        "venue": "IEEE Access",
-        "doi": "10.1109/ACCESS.2024.3458461"
     },
     {
         "id": "gimyumin2024gpureul",
@@ -576,7 +576,7 @@
                 ]
             ]
         },
-        "author": "Choi, Keong-Hun, Ha, Jong-Eun",
+        "author": "Choi Keong-Hun, Ha Jong-Eun",
         "citation-key": "choi2023adaptive",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2023.3291593",
@@ -610,7 +610,7 @@
                 ]
             ]
         },
-        "author": "Choi, Keong-Hun, Kim, Jin-Woo, Wang, Yao, Ha, Jong-Eun",
+        "author": "Choi Keong-Hun, Kim Jin-Woo, Wang Yao, Ha Jong-Eun",
         "citation-key": "choi2023improved",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2023.3291597",
@@ -644,7 +644,7 @@
                 ]
             ]
         },
-        "author": "Kim, Jae-Yeul, Ha, Jong-Eun",
+        "author": "Kim Jae-Yeul, Ha Jong-Eun",
         "citation-key": "kim2023automatic",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2023.3298055",
@@ -678,7 +678,7 @@
                 ]
             ]
         },
-        "author": "Kim, Jae-Yeul, Ha, Jong-Eun",
+        "author": "Kim Jae-Yeul, Ha Jong-Eun",
         "citation-key": "kim2023msfnet",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2023.3345842",
@@ -713,7 +713,7 @@
                 ]
             ]
         },
-        "author": "Wang, Yao, 하종은",
+        "author": "Wang Yao, 하종은",
         "citation-key": "wang2023gaeyi",
         "container-title": "제어로봇시스템학회 논문지",
         "DOI": "10.5302/J.ICROS.2023.23.0146",
@@ -749,7 +749,7 @@
                 ]
             ]
         },
-        "author": "Choi, Keong-Hun, Ha, Jong-Eun",
+        "author": "Choi Keong-Hun, Ha Jong-Eun",
         "citation-key": "choi2023object",
         "container-title": "2023 23rd International Conference on Control, Automation and Systems (ICCAS)",
         "DOI": "10.23919/ICCAS59377.2023.10316786",
@@ -784,7 +784,7 @@
                 ]
             ]
         },
-        "author": "Wang, Yao, Ha, Jong-Eun",
+        "author": "Wang Yao, Ha Jong-Eun",
         "citation-key": "wang2023detr",
         "container-title": "2023 23rd International Conference on Control, Automation and Systems (ICCAS)",
         "DOI": "10.23919/ICCAS59377.2023.10316851",
@@ -891,7 +891,7 @@
                 ]
             ]
         },
-        "author": "Kim, Jae-Yeul, Ha, Jong-Eun",
+        "author": "Kim Jae-Yeul, Ha Jong-Eun",
         "citation-key": "kim2022foreground",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2022.3224063",
@@ -925,7 +925,7 @@
                 ]
             ]
         },
-        "author": "Kim, Jae-Yeul, Ha, Jong-Eun",
+        "author": "Kim Jae-Yeul, Ha Jong-Eun",
         "citation-key": "kim2022weakly",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2022.3211987",
@@ -959,7 +959,7 @@
                 ]
             ]
         },
-        "author": "Wang, Yao, 하종은",
+        "author": "Wang Yao, 하종은",
         "citation-key": "wang2022dajung",
         "container-title": "제어로봇시스템학회 논문지",
         "DOI": "10.5302/J.ICROS.2022.22.0107",
@@ -995,7 +995,7 @@
                 ]
             ]
         },
-        "author": "Choi, Keong-Hun, Ha, Jong-Eun",
+        "author": "Choi Keong-Hun, Ha Jong-Eun",
         "citation-key": "choi2022random",
         "container-title": "2022 22nd International Conference on Control, Automation and Systems (ICCAS)",
         "DOI": "10.23919/ICCAS55662.2022.10003789",
@@ -1030,7 +1030,7 @@
                 ]
             ]
         },
-        "author": "Choi, Keong-Hun, Ha, Jong-Eun",
+        "author": "Choi Keong-Hun, Ha Jong-Eun",
         "citation-key": "choi2022semantic",
         "container-title": "2022 22nd International Conference on Control, Automation and Systems (ICCAS)",
         "DOI": "10.23919/ICCAS55662.2022.10003862",
@@ -1065,7 +1065,7 @@
                 ]
             ]
         },
-        "author": "Wang, Yao, Ha, Jong-Eun",
+        "author": "Wang Yao, Ha Jong-Eun",
         "citation-key": "wang2022scene",
         "container-title": "2022 22nd International Conference on Control, Automation and Systems (ICCAS)",
         "DOI": "10.23919/ICCAS55662.2022.10003838",
@@ -1100,7 +1100,7 @@
                 ]
             ]
         },
-        "author": "Choi, Keong-Hun, Ha, Jong-Eun",
+        "author": "Choi Keong-Hun, Ha Jong-Eun",
         "citation-key": "choi2021adaptive",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2021.3130132",
@@ -1206,7 +1206,7 @@
                 ]
             ]
         },
-        "author": "Kim, Jae-Yeul, Ha, Jong-Eun",
+        "author": "Kim Jae-Yeul, Ha Jong-Eun",
         "citation-key": "kim2021foreground",
         "container-title": "Applied Sciences",
         "DOI": "10.3390/app11041807",
@@ -1244,7 +1244,7 @@
                 ]
             ]
         },
-        "author": "Kim, Jae-Yeul, Ha, Jong-Eun",
+        "author": "Kim Jae-Yeul, Ha Jong-Eun",
         "citation-key": "kim2021generation",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2021.3111686",
@@ -1278,7 +1278,7 @@
                 ]
             ]
         },
-        "author": "Kim, Jae-Yeul, Ha, Jong-Eun",
+        "author": "Kim Jae-Yeul, Ha Jong-Eun",
         "citation-key": "kim2021spatiotemporal",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2021.3135505",
@@ -1338,7 +1338,7 @@
         "doi": "10.5302/J.ICROS.2021.21.0142"
     },
     {
-        "id": "keonghun2021segmentation",
+        "id": "choi2021segmentation",
         "accessed": {
             "date-parts": [
                 [
@@ -1348,8 +1348,8 @@
                 ]
             ]
         },
-        "author": "Keonghun, Choi, Ha, Jong–Eun",
-        "citation-key": "keonghun2021segmentation",
+        "author": "Choi Keonghun, Ha Jong–Eun",
+        "citation-key": "choi2021segmentation",
         "container-title": "2021 21st International Conference on Control, Automation and Systems (ICCAS)",
         "DOI": "10.23919/ICCAS52745.2021.9650042",
         "event-title": "2021 21st International Conference on Control, Automation and Systems (ICCAS)",
@@ -1373,7 +1373,7 @@
         "doi": "10.23919/ICCAS52745.2021.9650042"
     },
     {
-        "id": "keonghun2021visual",
+        "id": "choi2021visual",
         "accessed": {
             "date-parts": [
                 [
@@ -1383,8 +1383,8 @@
                 ]
             ]
         },
-        "author": "Keonghun, Choi, Ha, Jong-Eun",
-        "citation-key": "keonghun2021visual",
+        "author": "Choi Keonghun, Ha Jong-Eun",
+        "citation-key": "choi2021visual",
         "container-title": "2021 21st International Conference on Control, Automation and Systems (ICCAS)",
         "DOI": "10.23919/ICCAS52745.2021.9649823",
         "event-title": "2021 21st International Conference on Control, Automation and Systems (ICCAS)",
@@ -1418,7 +1418,7 @@
                 ]
             ]
         },
-        "author": "Wang, Yao, Ha, Jong-Eun",
+        "author": "Wang Yao, Ha Jong-Eun",
         "citation-key": "wang2021scene",
         "container-title": "2021 21st International Conference on Control, Automation and Systems (ICCAS)",
         "DOI": "10.23919/ICCAS52745.2021.9649998",
@@ -1453,7 +1453,7 @@
                 ]
             ]
         },
-        "author": "Yeom, Sangsik, Ha, JongEun",
+        "author": "Yeom Sangsik, Ha JongEun",
         "citation-key": "yeom2021hybridnet",
         "container-title": "2021 21st International Conference on Control, Automation and Systems (ICCAS)",
         "DOI": "10.23919/ICCAS52745.2021.9649914",
@@ -1515,7 +1515,7 @@
         "doi": "10.5302/J.ICROS.2020.20.0090"
     },
     {
-        "id": "coegyeonghun2020eji",
+        "id": "coegyeonghun2020ejia",
         "accessed": {
             "date-parts": [
                 [
@@ -1526,7 +1526,7 @@
             ]
         },
         "author": "최경훈, 하종은",
-        "citation-key": "coegyeonghun2020eji",
+        "citation-key": "coegyeonghun2020ejia",
         "container-title": "제어로봇시스템학회 논문지",
         "DOI": "10.5302/J.ICROS.2020.20.0119",
         "ISSN": "1976-5622",
@@ -1633,7 +1633,7 @@
                 ]
             ]
         },
-        "author": "Kim, Jae-Yeul, Ha, Jong-Eun",
+        "author": "Kim Jae-Yeul, Ha Jong-Eun",
         "citation-key": "kim2020extrinsic",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2020.3029267",
@@ -1667,7 +1667,7 @@
                 ]
             ]
         },
-        "author": "Kim, Jae-Yeul, Ha, Jong-Eun",
+        "author": "Kim Jae-Yeul, Ha Jong-Eun",
         "citation-key": "kim2020foreground",
         "container-title": "IEEE Access",
         "DOI": "10.1109/ACCESS.2020.3020818",
@@ -1737,7 +1737,7 @@
                 ]
             ]
         },
-        "author": "Choi, Keong-Hun, Ha, Jong-Eun",
+        "author": "Choi Keong-Hun, Ha Jong-Eun",
         "citation-key": "choi2020visual",
         "container-title": "2020 20th International Conference on Control, Automation and Systems (ICCAS)",
         "DOI": "10.23919/ICCAS50221.2020.9268429",
@@ -1836,7 +1836,7 @@
                 ]
             ]
         },
-        "author": "Kim, Jae-Yeul, Ha, Jong-Eun",
+        "author": "Kim Jae-Yeul, Ha Jong-Eun",
         "citation-key": "kim2020visual",
         "container-title": "2020 20th International Conference on Control, Automation and Systems (ICCAS)",
         "DOI": "10.23919/ICCAS50221.2020.9268373",
@@ -2115,7 +2115,7 @@
                 ]
             ]
         },
-        "author": "Kim, Nam-Hun, Ha, Jong-Eun",
+        "author": "Kim Nam-Hun, Ha Jong-Eun",
         "citation-key": "kim2019one",
         "container-title": "Journal of Electrical Engineering & Technology",
         "container-title-short": "J. Electr. Eng. Technol.",
@@ -2144,7 +2144,7 @@
     },
     {
         "id": "choi2019edge",
-        "author": "Choi, Keong-Hun, Ha, Jong-Eun",
+        "author": "Choi Keong-Hun, Ha Jong-Eun",
         "citation-key": "choi2019edge",
         "container-title": "2019 19th International Conference on Control, Automation and Systems (ICCAS)",
         "event-title": "2019 19th International Conference on Control, Automation and Systems (ICCAS)",
@@ -2164,7 +2164,7 @@
     },
     {
         "id": "kim2019automatic",
-        "author": "Kim, Jae-Yeul, Ha, Jong-Eun",
+        "author": "Kim Jae-Yeul, Ha Jong-Eun",
         "citation-key": "kim2019automatic",
         "container-title": "2019 19th International Conference on Control, Automation and Systems (ICCAS)",
         "event-title": "2019 19th International Conference on Control, Automation and Systems (ICCAS)",
@@ -2265,7 +2265,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong Eun",
+        "author": "Ha Jong Eun",
         "citation-key": "ha2018calibration",
         "container-title": "Journal of Electrical Engineering & Technology",
         "ISSN": "1975-0102",
@@ -2394,7 +2394,7 @@
     },
     {
         "id": "jang2018extrinsic",
-        "author": "Jang, Kyeong-Seock, Ha, Jong-Eun",
+        "author": "Jang Kyeong-Seock, Ha Jong-Eun",
         "citation-key": "jang2018extrinsic",
         "container-title": "2018 18th International Conference on Control, Automation and Systems (ICCAS)",
         "event-title": "2018 18th International Conference on Control, Automation and Systems (ICCAS)",
@@ -2414,7 +2414,7 @@
     },
     {
         "id": "jang2018extrinsica",
-        "author": "Jang, Kyeong-Seock, Ha, Jong-Eun",
+        "author": "Jang Kyeong-Seock, Ha Jong-Eun",
         "citation-key": "jang2018extrinsica",
         "container-title": "2018 18th International Conference on Control, Automation and Systems (ICCAS)",
         "event-title": "2018 18th International Conference on Control, Automation and Systems (ICCAS)",
@@ -2466,7 +2466,7 @@
     },
     {
         "id": "kim2018lane",
-        "author": "Kim, Dae-Hun, Ha, Jong-Eun",
+        "author": "Kim Dae-Hun, Ha Jong-Eun",
         "citation-key": "kim2018lane",
         "container-title": "2018 18th International Conference on Control, Automation and Systems (ICCAS)",
         "event-title": "2018 18th International Conference on Control, Automation and Systems (ICCAS)",
@@ -2656,7 +2656,7 @@
     },
     {
         "id": "kim2017multilane",
-        "author": "Kim, D. H., Ha, J. E.",
+        "author": "Kim D. H., Ha J. E.",
         "citation-key": "kim2017multilane",
         "container-title": "2017 17th International Conference on Control, Automation and Systems (ICCAS)",
         "event-title": "2017 17th International Conference on Control, Automation and Systems (ICCAS)",
@@ -2675,7 +2675,7 @@
     },
     {
         "id": "kim2017zooming",
-        "author": "Kim, N. H., Ha, J. E.",
+        "author": "Kim N. H., Ha J. E.",
         "citation-key": "kim2017zooming",
         "container-title": "2017 17th International Conference on Control, Automation and Systems (ICCAS)",
         "event-title": "2017 17th International Conference on Control, Automation and Systems (ICCAS)",
@@ -2694,7 +2694,7 @@
     },
     {
         "id": "lee20173d",
-        "author": "Lee, W. H., Ha, J. E., Oh, K. W.",
+        "author": "Lee W. H., Ha J. E., Oh K. W.",
         "citation-key": "lee20173d",
         "container-title": "2017 17th International Conference on Control, Automation and Systems (ICCAS)",
         "event-title": "2017 17th International Conference on Control, Automation and Systems (ICCAS)",
@@ -2860,7 +2860,7 @@
                 ]
             ]
         },
-        "author": "Song, T.-H., Ha, J.-E.",
+        "author": "Song T.-H., Ha J.-E.",
         "citation-key": "song2016visual",
         "container-title": "Electronics Letters",
         "DOI": "10.1049/el.2016.0022",
@@ -2951,7 +2951,7 @@
     },
     {
         "id": "kim2016extrinsic",
-        "author": "Kim, Nam-Hun, Ha, Jong-Eun",
+        "author": "Kim Nam-Hun, Ha Jong-Eun",
         "citation-key": "kim2016extrinsic",
         "container-title": "2016 16th International Conference on Control, Automation and Systems (ICCAS)",
         "event-title": "2016 16th International Conference on Control, Automation and Systems (ICCAS)",
@@ -2970,7 +2970,7 @@
     },
     {
         "id": "kim2016mapping",
-        "author": "Kim, Jin-Woo, Lee, Wang-Heon, Ha, Jong-Eun",
+        "author": "Kim Jin-Woo, Lee Wang-Heon, Ha Jong-Eun",
         "citation-key": "kim2016mapping",
         "container-title": "2016 16th International Conference on Control, Automation and Systems (ICCAS)",
         "event-title": "2016 16th International Conference on Control, Automation and Systems (ICCAS)",
@@ -3032,7 +3032,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun",
+        "author": "Ha Jong-Eun",
         "citation-key": "ha2015automatic",
         "container-title": "Journal of Electrical Engineering & Technology",
         "ISSN": "1975-0102",
@@ -3066,7 +3066,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun",
+        "author": "Ha Jong-Eun",
         "citation-key": "ha2015improved",
         "container-title": "International Journal of Control, Automation and Systems",
         "container-title-short": "Int. J. Control Autom. Syst.",
@@ -3193,7 +3193,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun, Lee, Wang-Heon",
+        "author": "Ha Jong-Eun, Lee Wang-Heon",
         "citation-key": "ha2014automatic",
         "container-title": "Journal of Electrical Engineering & Technology",
         "ISSN": "1975-0102",
@@ -3291,7 +3291,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun, Her, Kang-Wook",
+        "author": "Ha Jong-Eun, Her Kang-Wook",
         "citation-key": "ha2013calibration",
         "container-title": "Optical Engineering",
         "container-title-short": "OE",
@@ -3329,7 +3329,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun",
+        "author": "Ha Jong-Eun",
         "citation-key": "ha2013image",
         "container-title": "International Journal of Control, Automation and Systems",
         "container-title-short": "Int. J. Control Autom. Syst.",
@@ -3386,7 +3386,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun",
+        "author": "Ha Jong-Eun",
         "citation-key": "ha2012extrinsic",
         "container-title": "International Journal of Control, Automation and Systems",
         "container-title-short": "Int. J. Control Autom. Syst.",
@@ -3456,7 +3456,7 @@
                 ]
             ]
         },
-        "author": "Her, Kang-Wook, Kim, Dong-Hwan, Ha, Jong-Eun",
+        "author": "Her Kang-Wook, Kim Dong-Hwan, Ha Jong-Eun",
         "citation-key": "her2012localization",
         "container-title": "2012 12th International Conference on Control, Automation and Systems",
         "event-title": "2012 12th International Conference on Control, Automation and Systems",
@@ -3479,7 +3479,7 @@
     },
     {
         "id": "vavilin2012automatic",
-        "author": "Vavilin, Andrey, Jo, Kang-Hyun, Jeong, Moon-Ho, Ha, Jong-Eun, Kang, Dong-Joong",
+        "author": "Vavilin Andrey, Jo Kang-Hyun, Jeong Moon-Ho, Ha Jong-Eun, Kang Dong-Joong",
         "citation-key": "vavilin2012automatic",
         "container-title": "Advanced Intelligent Computing",
         "DOI": "10.1007/978-3-642-24728-6_51",
@@ -3501,7 +3501,6 @@
                 "given": "Juan Carlos"
             }
         ],
-        "event-place": "Berlin, Heidelberg",
         "ISBN": "978-3-642-24728-6",
         "issued": {
             "date-parts": [
@@ -3634,7 +3633,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun",
+        "author": "Ha Jong-Eun",
         "citation-key": "ha2011grouping",
         "container-title": "International Journal of Control, Automation and Systems",
         "container-title-short": "Int. J. Control Autom. Syst.",
@@ -3672,7 +3671,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun",
+        "author": "Ha Jong-Eun",
         "citation-key": "ha2011new",
         "container-title": "International Journal of Control, Automation and Systems",
         "container-title-short": "Int. J. Control Autom. Syst.",
@@ -3710,7 +3709,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun, Choi, I.-Sak",
+        "author": "Ha Jong-Eun, Choi I.-Sak",
         "citation-key": "ha2011simple",
         "container-title": "Optical Engineering",
         "container-title-short": "OE",
@@ -3748,7 +3747,7 @@
                 ]
             ]
         },
-        "author": "Choi, I-Sak, Ha, Jong-Eun",
+        "author": "Choi I-Sak, Ha Jong-Eun",
         "citation-key": "choi2011visual",
         "container-title": "2011 11th International Conference on Control, Automation and Systems",
         "event-title": "2011 11th International Conference on Control, Automation and Systems",
@@ -3876,7 +3875,7 @@
                 ]
             ]
         },
-        "author": "Her, Kang-Wook, Ha, Jong-Eun, Lee, Wang-Heon",
+        "author": "Her Kang-Wook, Ha Jong-Eun, Lee Wang-Heon",
         "citation-key": "her2011steering",
         "container-title": "2011 11th International Conference on Control, Automation and Systems",
         "event-title": "2011 11th International Conference on Control, Automation and Systems",
@@ -3899,6 +3898,43 @@
         "venue": "2011 11th International Conference on Control, Automation and Systems"
     },
     {
+        "id": "kang2010specimen",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2025",
+                    10,
+                    5
+                ]
+            ]
+        },
+        "author": "Kang Dong-Joong, Park Jun-Hyub, Shin Myung-Soo, Ha Jong-Eun, Lee Hak-Joo",
+        "citation-key": "kang2010specimen",
+        "container-title": "Journal of Micromechanics and Microengineering",
+        "container-title-short": "J. Micromech. Microeng.",
+        "DOI": "10.1088/0960-1317/20/8/085001",
+        "ISSN": "0960-1317",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    "2010",
+                    6
+                ]
+            ]
+        },
+        "page": "085001",
+        "source": "Institute of Physics",
+        "title": "Specimen alignment in an axial tensile test of thin films using direct imaging and its influence on the mechanical properties of BeCu",
+        "type": "article-journal",
+        "URL": "https://doi.org/10.1088/0960-1317/20/8/085001",
+        "volume": "20",
+        "category": "international-journal",
+        "year": 2010,
+        "venue": "Journal of Micromechanics and Microengineering",
+        "doi": "10.1088/0960-1317/20/8/085001"
+    },
+    {
         "id": "choi2010easy",
         "accessed": {
             "date-parts": [
@@ -3909,7 +3945,7 @@
                 ]
             ]
         },
-        "author": "Choi, I-Sak, Ha, Jong-Eun",
+        "author": "Choi I-Sak, Ha Jong-Eun",
         "citation-key": "choi2010easy",
         "container-title": "ICCAS 2010",
         "DOI": "10.1109/ICCAS.2010.5669912",
@@ -3961,7 +3997,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun, Kang, Dong-Joong, Lee, Wang-Heon",
+        "author": "Ha Jong-Eun, Kang Dong-Joong, Lee Wang-Heon",
         "citation-key": "ha2010learningbased",
         "container-title": "ICCAS 2010",
         "DOI": "10.1109/ICCAS.2010.5669917",
@@ -4019,8 +4055,83 @@
         "venue": "제어로봇시스템학회 논문지"
     },
     {
+        "id": "kang2009detection",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2025",
+                    10,
+                    5
+                ]
+            ]
+        },
+        "author": "Kang Dong-Joong, Lim Sung-Jo, Ha Jong-Eun, Jeong Mun-Ho",
+        "citation-key": "kang2009detection",
+        "container-title": "Pattern Recognition Letters",
+        "container-title-short": "Pattern Recognition Letters",
+        "DOI": "10.1016/j.patrec.2008.11.011",
+        "ISSN": "0167-8655",
+        "issue": "5",
+        "issued": {
+            "date-parts": [
+                [
+                    "2009",
+                    4,
+                    1
+                ]
+            ]
+        },
+        "page": "486–493",
+        "source": "ScienceDirect",
+        "title": "A detection cell using multiple points of a rotating triangle to find local planar regions from stereo depth data",
+        "type": "article-journal",
+        "URL": "https://www.sciencedirect.com/science/article/pii/S0167865508003528",
+        "volume": "30",
+        "category": "international-journal",
+        "year": 2009,
+        "venue": "Pattern Recognition Letters",
+        "doi": "10.1016/j.patrec.2008.11.011"
+    },
+    {
+        "id": "park2009easy",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2025",
+                    10,
+                    5
+                ]
+            ]
+        },
+        "author": "Park Jun-Hyub, Kang Dong-Joong, Shin Myung-Soo, Lim Sung-Jo, Yu Son-Cheol, Lee Kwang-Soo, Ha Jong-Eun, Choa Sung-Hoon",
+        "citation-key": "park2009easy",
+        "container-title": "Transactions of Nonferrous Metals Society of China",
+        "container-title-short": "Transactions of Nonferrous Metals Society of China",
+        "DOI": "10.1016/S1003-6326(10)60278-6",
+        "ISSN": "1003-6326",
+        "issued": {
+            "date-parts": [
+                [
+                    "2009",
+                    9,
+                    1
+                ]
+            ]
+        },
+        "page": "s243-s249",
+        "source": "ScienceDirect",
+        "title": "Easy calibration method of vision system for in-situ measurement of strain of thin films",
+        "type": "article-journal",
+        "URL": "https://www.sciencedirect.com/science/article/pii/S1003632610602786",
+        "volume": "19",
+        "category": "international-journal",
+        "year": 2009,
+        "venue": "Transactions of Nonferrous Metals Society of China",
+        "doi": "10.1016/S1003-6326(10)60278-6"
+    },
+    {
         "id": "cho2009visual",
-        "author": "Cho, Y. T., Ha, J. E.",
+        "author": "Cho Y. T., Ha J. E.",
         "citation-key": "cho2009visual",
         "container-title": "International conference on mechatronics and information technology",
         "issued": {
@@ -4055,6 +4166,77 @@
         "venue": "제 4 회 한국로봇 공학회 하계종합 학술대회 논문집"
     },
     {
+        "id": "ha2008new",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2025",
+                    10,
+                    5
+                ]
+            ]
+        },
+        "author": "Ha Jong-Eun, Park Jun-Hyub, Kang Dong-Joong",
+        "citation-key": "ha2008new",
+        "container-title": "Journal of Physics D: Applied Physics",
+        "container-title-short": "J. Phys. D: Appl. Phys.",
+        "DOI": "10.1088/0022-3727/41/17/175406",
+        "ISSN": "0022-3727",
+        "issue": "17",
+        "issued": {
+            "date-parts": [
+                [
+                    "2008",
+                    8
+                ]
+            ]
+        },
+        "page": "175406",
+        "source": "Institute of Physics",
+        "title": "New strain measurement method at axial tensile test of thin films through direct imaging",
+        "type": "article-journal",
+        "URL": "https://doi.org/10.1088/0022-3727/41/17/175406",
+        "volume": "41",
+        "category": "international-journal",
+        "year": 2008,
+        "venue": "Journal of Physics D: Applied Physics",
+        "doi": "10.1088/0022-3727/41/17/175406"
+    },
+    {
+        "id": "kang2008detection",
+        "accessed": {
+            "date-parts": [
+                [
+                    "2025",
+                    10,
+                    5
+                ]
+            ]
+        },
+        "author": "Kang Dong-Joong, Ha Jong-Eun, Jeong Mun-Ho",
+        "citation-key": "kang2008detection",
+        "container-title": "International Journal of Control Automation and Systems",
+        "ISSN": "1598-6446",
+        "issue": "5",
+        "issued": {
+            "date-parts": [
+                [
+                    "2008",
+                    10
+                ]
+            ]
+        },
+        "page": "746–754",
+        "source": "www.dbpia.co.kr",
+        "title": "Detection of Calibration Patterns for Camera Calibration with Irregular Lighting and Complicated Backgrounds",
+        "type": "article-journal",
+        "URL": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01327508",
+        "volume": "6",
+        "category": "international-journal",
+        "year": 2008,
+        "venue": "International Journal of Control Automation and Systems"
+    },
+    {
         "id": "ha2008retrieval",
         "accessed": {
             "date-parts": [
@@ -4065,7 +4247,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun, Shim, Jin-Bum, Choi, Keun-Ho",
+        "author": "Ha Jong-Eun, Shim Jin-Bum, Choi Keun-Ho",
         "citation-key": "ha2008retrieval",
         "container-title": "2008 International Conference on Control, Automation and Systems",
         "DOI": "10.1109/ICCAS.2008.4694512",
@@ -4090,7 +4272,7 @@
     },
     {
         "id": "ha2008robust",
-        "author": "Ha, Jong Eun",
+        "author": "Ha Jong Eun",
         "citation-key": "ha2008robust",
         "container-title": "39th international symposium on robotics, ISR 2008",
         "issued": {
@@ -4127,7 +4309,7 @@
     },
     {
         "id": "ha2007imagebased",
-        "author": "Ha, Jong-Eun, Park, Jun-Hyub, An, Joong-Hyok, Kim, Yun-Jae",
+        "author": "Ha Jong-Eun, Park Jun-Hyub, An Joong-Hyok, Kim Yun-Jae",
         "citation-key": "ha2007imagebased",
         "container-title": "International conference on integration and commercialization of micro and nanosystems",
         "DOI": "10.1115/MNC2007-21570",
@@ -4152,7 +4334,7 @@
     },
     {
         "id": "ha2007large",
-        "author": "Ha, J. E., Park, J. H., An, J. H., Kim, Y. J.",
+        "author": "Ha J. E., Park J. H., An J. H., Kim Y. J.",
         "citation-key": "ha2007large",
         "container-title": "International conference on advanced computational engineering and experiments",
         "issued": {
@@ -4170,7 +4352,7 @@
     },
     {
         "id": "lee2007robust",
-        "author": "Lee, Yoon-Hyung, Jeong, Mun-Ho, Ha, Jong-Eun, Kang, Dong-Joong, You, Bum-Jae",
+        "author": "Lee Yoon-Hyung, Jeong Mun-Ho, Ha Jong-Eun, Kang Dong-Joong, You Bum-Jae",
         "citation-key": "lee2007robust",
         "container-title": "Advanced Intelligent Computing Theories and Applications. With Aspects of Contemporary Intelligent Computing Techniques",
         "DOI": "10.1007/978-3-540-74282-1_102",
@@ -4188,7 +4370,6 @@
                 "given": "Marco"
             }
         ],
-        "event-place": "Berlin, Heidelberg",
         "event-title": "Advanced Intelligent Computing Theories and Applications. With Aspects of Contemporary Intelligent Computing Techniques",
         "ISBN": "978-3-540-74282-1",
         "issued": {
@@ -4220,7 +4401,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun, Kang, Dong-Joong, Jeong, Mun-Ho, Lee, Wang-Heon",
+        "author": "Ha Jong-Eun, Kang Dong-Joong, Jeong Mun-Ho, Lee Wang-Heon",
         "citation-key": "ha2006robust",
         "container-title": "Intelligent Computing in Signal Processing and Pattern Recognition: International Conference on Intelligent Computing, ICIC 2006 Kunming, China, August 16–19, 2006",
         "DOI": "10.1007/978-3-540-37258-5_49",
@@ -4238,7 +4419,6 @@
                 "given": "George William"
             }
         ],
-        "event-place": "Berlin, Heidelberg",
         "event-title": "International Conference on Intelligent Computing, ICIC 2006",
         "ISBN": "978-3-540-37258-5",
         "issued": {
@@ -4262,7 +4442,7 @@
     },
     {
         "id": "kang2006fast",
-        "author": "Kang, Dong-Joong, Ha, Jong-Eun, Lho, Tae-Jung",
+        "author": "Kang Dong-Joong, Ha Jong-Eun, Lho Tae-Jung",
         "citation-key": "kang2006fast",
         "container-title": "Computational Science and Its Applications - ICCSA 2006",
         "DOI": "10.1007/11751595_122",
@@ -4300,7 +4480,6 @@
                 "given": "Hyunseung"
             }
         ],
-        "event-place": "Berlin, Heidelberg",
         "ISBN": "978-3-540-34076-8",
         "issued": {
             "date-parts": [
@@ -4331,7 +4510,7 @@
                 ]
             ]
         },
-        "author": "Kang, Dong-Joong, Ha, Jong-Eun, Jeong, Mun-Ho",
+        "author": "Kang Dong-Joong, Ha Jong-Eun, Jeong Mun-Ho",
         "citation-key": "kang2006method",
         "container-title": "Intelligent Computing in Signal Processing and Pattern Recognition: International Conference on Intelligent Computing, ICIC 2006 Kunming, China, August 16–19, 2006",
         "DOI": "10.1007/978-3-540-37258-5_64",
@@ -4349,7 +4528,6 @@
                 "given": "George William"
             }
         ],
-        "event-place": "Berlin, Heidelberg",
         "event-title": "International Conference on Intelligent Computing, ICIC 2006",
         "ISBN": "978-3-540-37258-5",
         "issued": {
@@ -4382,7 +4560,7 @@
                 ]
             ]
         },
-        "author": "Uwamahoro, Diane Rurangirwa, Jeong, Mun-Ho, You, Bum-Jae, Ha, Jong-Eun, Kang, Dong-Joong",
+        "author": "Uwamahoro Diane Rurangirwa, Jeong Mun-Ho, You Bum-Jae, Ha Jong-Eun, Kang Dong-Joong",
         "citation-key": "uwamahoro2006attentive",
         "container-title": "Intelligent Computing in Signal Processing and Pattern Recognition: International Conference on Intelligent Computing, ICIC 2006 Kunming, China, August 16–19, 2006",
         "DOI": "10.1007/978-3-540-37258-5_83",
@@ -4400,7 +4578,6 @@
                 "given": "George William"
             }
         ],
-        "event-place": "Berlin, Heidelberg",
         "ISBN": "978-3-540-37258-5",
         "issued": {
             "date-parts": [
@@ -4432,7 +4609,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun, Kang, Dong-Joong",
+        "author": "Ha Jong-Eun, Kang Dong-Joong",
         "citation-key": "ha2005initialization",
         "container-title": "Pattern Recognition",
         "container-title-short": "Pattern Recognition",
@@ -4461,7 +4638,7 @@
     },
     {
         "id": "ha2005fast",
-        "author": "Ha, Jong-Eun, Kang, Dong-Joong",
+        "author": "Ha Jong-Eun, Kang Dong-Joong",
         "citation-key": "ha2005fast",
         "container-title": "AI 2005: Advances in Artificial Intelligence",
         "DOI": "10.1007/11589990_184",
@@ -4475,7 +4652,6 @@
                 "given": "Ray"
             }
         ],
-        "event-place": "Berlin, Heidelberg",
         "ISBN": "978-3-540-31652-7",
         "issued": {
             "date-parts": [
@@ -4497,7 +4673,7 @@
     },
     {
         "id": "ha2005fasta",
-        "author": "Ha, Jong-Eun, Kang, Dong-Joong, Kim, Jin-Young, Kim, Min-Sung",
+        "author": "Ha Jong-Eun, Kang Dong-Joong, Kim Jin-Young, Kim Min-Sung",
         "citation-key": "ha2005fasta",
         "container-title": "제어로봇시스템학회 국제학술대회 논문집",
         "event-title": "2005 International Conference on Control, Automation and Systems",
@@ -4517,7 +4693,7 @@
     },
     {
         "id": "kang2005moving",
-        "author": "Kang, Dong-Joong, Ha, Jong-Eun, Kim, Jin-Young, Kim, Min-Sung, Lho, Tae-Jung",
+        "author": "Kang Dong-Joong, Ha Jong-Eun, Kim Jin-Young, Kim Min-Sung, Lho Tae-Jung",
         "citation-key": "kang2005moving",
         "container-title": "제어로봇시스템학회 국제학술대회 논문집",
         "event-title": "2005 International Conference on Control, Automation and Systems",
@@ -4537,7 +4713,7 @@
     },
     {
         "id": "kim2005application",
-        "author": "Kim, Min-Sung, Han, Young-Geun, Kang, Dong-Joong, Ha, Jong-Eun, Kim, Jin-Young, Lho, Tae-Jung",
+        "author": "Kim Min-Sung, Han Young-Geun, Kang Dong-Joong, Ha Jong-Eun, Kim Jin-Young, Lho Tae-Jung",
         "citation-key": "kim2005application",
         "container-title": "제어로봇시스템학회 국제학술대회 논문집",
         "event-title": "2005 International Conference on Control, Automation and Systems",
@@ -4557,7 +4733,7 @@
     },
     {
         "id": "kim2005pyramidal",
-        "author": "Kim, JY, Kang, DJ, Kim, MS, Ha, JE, Lho, TJ, Yoon, JS",
+        "author": "Kim JY, Kang DJ, Kim MS, Ha JE, Lho TJ, Yoon JS",
         "citation-key": "kim2005pyramidal",
         "container-title": "제어로봇시스템학회 국제학술대회 논문집",
         "event-title": "2005 International Conference on Control, Automation and Systems",
@@ -4645,7 +4821,7 @@
     },
     {
         "id": "ha2004initialization",
-        "author": "Ha, Jong-Eun, Kang, Dong-Joong",
+        "author": "Ha Jong-Eun, Kang Dong-Joong",
         "citation-key": "ha2004initialization",
         "container-title": "Computational Science and Its Applications – ICCSA 2004",
         "DOI": "10.1007/978-3-540-24768-5_98",
@@ -4675,7 +4851,6 @@
                 "given": "Osvaldo"
             }
         ],
-        "event-place": "Berlin, Heidelberg",
         "ISBN": "978-3-540-24768-5",
         "issued": {
             "date-parts": [
@@ -4697,7 +4872,7 @@
     },
     {
         "id": "ha2004motion",
-        "author": "Ha, Jong-Eun, Kang, Dong-Joong, Kweon, In-So",
+        "author": "Ha Jong-Eun, Kang Dong-Joong, Kweon In-So",
         "citation-key": "ha2004motion",
         "event-title": "Asian Conference on Computer Vision",
         "issued": {
@@ -4716,7 +4891,7 @@
     },
     {
         "id": "ha2004sequential",
-        "author": "Ha, Jong-Eun, Kang, Dong-Joong, Jeong, Muh-Ho",
+        "author": "Ha Jong-Eun, Kang Dong-Joong, Jeong Muh-Ho",
         "citation-key": "ha2004sequential",
         "container-title": "Advances in Multimedia Information Processing - PCM 2004",
         "DOI": "10.1007/978-3-540-30541-5_27",
@@ -4734,7 +4909,6 @@
                 "given": "Shin’ichi"
             }
         ],
-        "event-place": "Berlin, Heidelberg",
         "ISBN": "978-3-540-30541-5",
         "issued": {
             "date-parts": [
@@ -4756,7 +4930,7 @@
     },
     {
         "id": "kang2004object",
-        "author": "Kang, Dong-Joong, Ha, Jong-Eun, Ahn, In-Mo",
+        "author": "Kang Dong-Joong, Ha Jong-Eun, Ahn In-Mo",
         "citation-key": "kang2004object",
         "container-title": "Computational Science and Its Applications – ICCSA 2004",
         "DOI": "10.1007/978-3-540-24768-5_96",
@@ -4786,7 +4960,6 @@
                 "given": "Osvaldo"
             }
         ],
-        "event-place": "Berlin, Heidelberg",
         "ISBN": "978-3-540-24768-5",
         "issued": {
             "date-parts": [
@@ -4808,7 +4981,7 @@
     },
     {
         "id": "kang2004polyhedral",
-        "author": "Kang, Dong-Joong, Ha, Jong-Eun, Jeong, Muh-Ho",
+        "author": "Kang Dong-Joong, Ha Jong-Eun, Jeong Muh-Ho",
         "citation-key": "kang2004polyhedral",
         "container-title": "Advances in Multimedia Information Processing - PCM 2004",
         "DOI": "10.1007/978-3-540-30541-5_50",
@@ -4826,7 +4999,6 @@
                 "given": "Shin’ichi"
             }
         ],
-        "event-place": "Berlin, Heidelberg",
         "ISBN": "978-3-540-30541-5",
         "issued": {
             "date-parts": [
@@ -4848,7 +5020,7 @@
     },
     {
         "id": "kweon20043d",
-        "author": "Kweon, In-So",
+        "author": "Kweon In-So",
         "citation-key": "kweon20043d",
         "container-title": "Asian conference on computer vision",
         "issued": {
@@ -4866,7 +5038,7 @@
     },
     {
         "id": "lho2004linebased",
-        "author": "Lho, Tae-Jung, Kang, Dong-Joong, Ha, Jong-Eun",
+        "author": "Lho Tae-Jung, Kang Dong-Joong, Ha Jong-Eun",
         "citation-key": "lho2004linebased",
         "container-title": "Computational Science and Its Applications – ICCSA 2004",
         "DOI": "10.1007/978-3-540-24768-5_97",
@@ -4896,7 +5068,6 @@
                 "given": "Osvaldo"
             }
         ],
-        "event-place": "Berlin, Heidelberg",
         "ISBN": "978-3-540-24768-5",
         "issued": {
             "date-parts": [
@@ -4927,7 +5098,7 @@
                 ]
             ]
         },
-        "author": "Kang, Dong Joong, Ha, Jong Eun, Kweon, In So",
+        "author": "Kang Dong Joong, Ha Jong Eun, Kweon In So",
         "citation-key": "kang2003fast",
         "container-title": "Pattern Recognition",
         "container-title-short": "Pattern Recognition",
@@ -4956,7 +5127,7 @@
     },
     {
         "id": "ha2003new",
-        "author": "Ha, Jong-Eun, Kang, Dong-Joong",
+        "author": "Ha Jong-Eun, Kang Dong-Joong",
         "citation-key": "ha2003new",
         "container-title": "제어로봇시스템학회 국제학술대회논문집",
         "event-title": "International Conference on Control, Automation and Systems",
@@ -4977,7 +5148,7 @@
     },
     {
         "id": "kang2003modelbased",
-        "author": "Kang, Dong-Joong, Ha, Jong-Eun",
+        "author": "Kang Dong-Joong, Ha Jong-Eun",
         "citation-key": "kang2003modelbased",
         "container-title": "제어로봇시스템학회 국제학술대회논문집",
         "event-title": "International Conference on Control, Automation and Systems",
@@ -5007,7 +5178,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun, Kweon, In-So",
+        "author": "Ha Jong-Eun, Kweon In-So",
         "citation-key": "ha20013d",
         "container-title": "Pattern Recognition",
         "container-title-short": "Pattern Recognition",
@@ -5036,7 +5207,7 @@
     },
     {
         "id": "ha2000new",
-        "author": "Ha, J. E., Kweon, I. S.",
+        "author": "Ha J. E., Kweon I. S.",
         "citation-key": "ha2000new",
         "container-title": "Electronics Letters",
         "issue": "1",
@@ -5066,7 +5237,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun, Kweon, In-So",
+        "author": "Ha Jong-Eun, Kweon In-So",
         "citation-key": "ha2000robust",
         "container-title": "Pattern Recognition Letters",
         "container-title-short": "Pattern Recognition Letters",
@@ -5095,7 +5266,7 @@
     },
     {
         "id": "ha20003d",
-        "author": "Ha, J. E., Kweon, I. S.",
+        "author": "Ha J. E., Kweon I. S.",
         "citation-key": "ha20003d",
         "container-title": "Asian conference on computer vision",
         "issued": {
@@ -5113,7 +5284,7 @@
     },
     {
         "id": "ha2000robusta",
-        "author": "Ha, J. E., Kweon, I. S.",
+        "author": "Ha J. E., Kweon I. S.",
         "citation-key": "ha2000robusta",
         "container-title": "Asian conference on computer vision",
         "issued": {
@@ -5131,7 +5302,7 @@
     },
     {
         "id": "ha2000selfcalibration",
-        "author": "Ha, Jong-Eun, Kweon, In-So",
+        "author": "Ha Jong-Eun, Kweon In-So",
         "citation-key": "ha2000selfcalibration",
         "container-title": "Asian conference on computer vision",
         "issued": {
@@ -5159,7 +5330,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong-Eun, Yang, Jin-Young, Yoon, Kuk-Jin, Kweon, In-So",
+        "author": "Ha Jong-Eun, Yang Jin-Young, Yoon Kuk-Jin, Kweon In-So",
         "citation-key": "ha2000selfcalibrationa",
         "container-title": "Proceedings 2000 ICRA. Millennium Conference. IEEE International Conference on Robotics and Automation. Symposia Proceedings (Cat. No.00CH37065)",
         "DOI": "10.1109/ROBOT.2000.844161",
@@ -5195,7 +5366,7 @@
                 ]
             ]
         },
-        "author": "Ha, Jong Eun, Kweon, In So",
+        "author": "Ha Jong Eun, Kweon In So",
         "citation-key": "ha1999calibration",
         "container-title": "Proceedings 1999 IEEE/RSJ International Conference on Intelligent Robots and Systems. Human and Environment Friendly Robots with High Intelligence and Emotional Quotients",
         "DOI": "10.1109/IROS.1999.812769",
@@ -5255,7 +5426,7 @@
     },
     {
         "id": "kweon1998robust",
-        "author": "Kweon, In-So, Ha, Jongeun",
+        "author": "Kweon In-So, Ha Jongeun",
         "citation-key": "kweon1998robust",
         "container-title": "Japan-korea joint workshop on computer vision",
         "issued": {
