@@ -471,7 +471,7 @@
     {
         "id": 19,
         "nameKo": "김재열",
-        "nameEn": " Jae-yul Kim",
+        "nameEn": "Jae-yul Kim",
         "role": "Alumni",
         "email": "",
         "academicBackground": [
@@ -488,7 +488,7 @@
             {
                 "title": "Current Workplace",
                 "contents": [
-                    "DGIST 박사 진학"
+                    "부경대학교 컴퓨터·인공지능공학부 조교수"
                 ]
             }
         ]
@@ -709,24 +709,23 @@
         "id": 28,
         "nameKo": "정병찬",
         "nameEn": "Byung-chan Jeong",
-        "role": "M.S. Student",
-        "email": "bottlefull@seoultech.ac.kr",
+        "role": "Alumni",
+        "email": "",
         "academicBackground": [
             {
-                "degree": "B.S.",
-                "school": "숭실대학교",
-                "year": 2017,
-                "thesis": ""
+                "degree": "M.S.",
+                "school": "",
+                "year": 2026,
+                "thesis": "비전 기반 자율주행 환경에서 효율적 공간 표현 및 비전-언어 모델 기반의 교차로 교통법규 위반 자동 판단 연구"
             }
         ],
-        "category": "Member",
-        "course": "M.S.",
+        "category": "Alumni",
+        "course": "General Graduated",
         "description": [
             {
-                "title": "Research Interests",
+                "title": "Current Workplace",
                 "contents": [
-                    "HD Map",
-                    "자율주행 인프라"
+                    "(주)웨이즈원"
                 ]
             }
         ]
